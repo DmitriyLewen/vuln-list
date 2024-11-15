@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3162 affecting package kube-vip-cloud-provider 0.0.2-19. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kube-vip-cloud-provider is installed with version 0.0.2-19 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13782000"
-    }
+    },
+    "Operator": "AND"
   }
 }

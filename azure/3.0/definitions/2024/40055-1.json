@@ -20,10 +20,10 @@
     "Description": "CVE-2024-2757 affecting package php for versions less than 8.3.6-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package php is earlier than 8.3.6-1, affected by CVE-2024-2757",
       "TestRef": "oval:com.microsoft.azurelinux:tst:40055000"
-    }
+    },
+    "Operator": "AND"
   }
 }

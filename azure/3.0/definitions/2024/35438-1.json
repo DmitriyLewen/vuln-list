@@ -20,10 +20,10 @@
     "Description": "CVE-2024-23650 affecting package docker-compose for versions less than 2.27.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package docker-compose is earlier than 2.27.0-1, affected by CVE-2024-23650",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35438000"
-    }
+    },
+    "Operator": "AND"
   }
 }

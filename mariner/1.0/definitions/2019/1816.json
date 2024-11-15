@@ -20,10 +20,10 @@
     "Description": "CVE-2019-16275 affecting package wpa_supplicant 2.9-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package wpa_supplicant is earlier than 2.9-2, affected by CVE-2019-16275",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1816000"
-    }
+    },
+    "Operator": "AND"
   }
 }

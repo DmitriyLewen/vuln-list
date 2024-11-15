@@ -20,10 +20,10 @@
     "Description": "CVE-2015-7747 affecting package audiofile for versions less than 0.3.6-27. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package audiofile is earlier than 0.3.6-27, affected by CVE-2015-7747",
       "TestRef": "oval:com.microsoft.azurelinux:tst:44172000"
-    }
+    },
+    "Operator": "AND"
   }
 }

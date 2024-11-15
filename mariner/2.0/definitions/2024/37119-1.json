@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24786 affecting package node-problem-detector for versions less than 0.8.17-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package node-problem-detector is earlier than 0.8.17-2, affected by CVE-2024-24786",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:37119000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-48795 affecting package packer for versions less than 1.9.5-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package packer is earlier than 1.9.5-1, affected by CVE-2023-48795",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35099000"
-    }
+    },
+    "Operator": "AND"
   }
 }

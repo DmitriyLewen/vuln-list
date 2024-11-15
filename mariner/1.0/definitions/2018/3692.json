@@ -19,10 +19,10 @@
     "Description": "CVE-2018-20225 affecting package python-pip 19.2-2. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-pip is installed with version 19.2-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3692000"
-    }
+    },
+    "Operator": "AND"
   }
 }

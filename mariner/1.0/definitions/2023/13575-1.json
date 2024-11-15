@@ -20,10 +20,10 @@
     "Description": "CVE-2023-25725 affecting package haproxy 2.1.5-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package haproxy is earlier than 2.1.5-2, affected by CVE-2023-25725",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13575000"
-    }
+    },
+    "Operator": "AND"
   }
 }

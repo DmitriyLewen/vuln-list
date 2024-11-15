@@ -20,10 +20,10 @@
     "Description": "CVE-2024-5535 affecting package openssl for versions less than 3.3.0-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssl is earlier than 3.3.0-2, affected by CVE-2024-5535",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42975000"
-    }
+    },
+    "Operator": "AND"
   }
 }

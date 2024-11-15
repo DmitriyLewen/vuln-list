@@ -20,10 +20,10 @@
     "Description": "CVE-2023-33199 affecting package skopeo for versions less than 1.12.0-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package skopeo is earlier than 1.12.0-3, affected by CVE-2023-33199",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26947000"
-    }
+    },
+    "Operator": "AND"
   }
 }

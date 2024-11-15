@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6104 affecting package cri-o for versions less than 1.22.3-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cri-o is earlier than 1.22.3-6, affected by CVE-2024-6104",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42913000"
-    }
+    },
+    "Operator": "AND"
   }
 }

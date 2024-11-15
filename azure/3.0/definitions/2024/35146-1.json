@@ -20,10 +20,10 @@
     "Description": "CVE-2024-27318 affecting package pytorch for versions less than 2.2.2-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package pytorch is earlier than 2.2.2-1, affected by CVE-2024-27318",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35146000"
-    }
+    },
+    "Operator": "AND"
   }
 }

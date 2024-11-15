@@ -20,10 +20,10 @@
     "Description": "CVE-2022-1215 affecting package libinput for versions less than 1.21.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libinput is earlier than 1.21.0-1, affected by CVE-2022-1215",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9861000"
-    }
+    },
+    "Operator": "AND"
   }
 }

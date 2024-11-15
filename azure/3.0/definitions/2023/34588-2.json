@@ -20,10 +20,10 @@
     "Description": "CVE-2023-39325 affecting package cert-manager for versions less than 1.11.2-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cert-manager is earlier than 1.11.2-5, affected by CVE-2023-39325",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34588000"
-    }
+    },
+    "Operator": "AND"
   }
 }

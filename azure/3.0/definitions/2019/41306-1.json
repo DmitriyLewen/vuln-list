@@ -20,10 +20,10 @@
     "Description": "CVE-2019-19391 affecting package sysbench for versions less than 1.0.20-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sysbench is earlier than 1.0.20-3, affected by CVE-2019-19391",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41306000"
-    }
+    },
+    "Operator": "AND"
   }
 }

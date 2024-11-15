@@ -20,10 +20,10 @@
     "Description": "CVE-2023-2700 affecting package libvirt for versions less than 7.10.0-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libvirt is earlier than 7.10.0-5, affected by CVE-2023-2700",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26736000"
-    }
+    },
+    "Operator": "AND"
   }
 }

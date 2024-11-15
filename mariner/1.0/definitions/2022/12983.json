@@ -19,10 +19,10 @@
     "Description": "CVE-2022-4415 affecting package systemd 239-43. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd is installed with version 239-43 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12983000"
-    }
+    },
+    "Operator": "AND"
   }
 }

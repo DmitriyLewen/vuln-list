@@ -20,10 +20,10 @@
     "Description": "CVE-2022-28805 affecting package lua for versions less than 5.4.3-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package lua is earlier than 5.4.3-2, affected by CVE-2022-28805",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9333000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-5441 affecting package vim for versions less than 9.0.2010-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 9.0.2010-1, affected by CVE-2023-5441",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31112000"
-    }
+    },
+    "Operator": "AND"
   }
 }

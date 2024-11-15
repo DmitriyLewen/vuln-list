@@ -20,10 +20,10 @@
     "Description": "CVE-2019-6706 affecting package lua for versions less than 5.3.5-11. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package lua is earlier than 5.3.5-11, affected by CVE-2019-6706",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6669000"
-    }
+    },
+    "Operator": "AND"
   }
 }

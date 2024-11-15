@@ -20,10 +20,10 @@
     "Description": "CVE-2024-21626 affecting package kubernetes for versions less than 1.28.4-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
-      "Comment": "Package kubernetes is greater than 0.0.0, affected by CVE-2024-21626",
-      "TestRef": "oval:com.microsoft.cbl-mariner:tst:34074003"
-    }
+      "Comment": "Package kubernetes is earlier than 1.28.4-3, affected by CVE-2024-21626",
+      "TestRef": "oval:com.microsoft.cbl-mariner:tst:34074000"
+    },
+    "Operator": "AND"
   }
 }

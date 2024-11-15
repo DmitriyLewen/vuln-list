@@ -20,10 +20,10 @@
     "Description": "CVE-2022-23526 affecting package helm for versions less than 3.9.4-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package helm is earlier than 3.9.4-4, affected by CVE-2022-23526",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11656000"
-    }
+    },
+    "Operator": "AND"
   }
 }

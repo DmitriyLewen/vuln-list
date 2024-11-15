@@ -20,10 +20,10 @@
     "Description": "CVE-2022-29526 affecting package kured for versions less than 1.13.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kured is earlier than 1.13.2-1, affected by CVE-2022-29526",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31975000"
-    }
+    },
+    "Operator": "AND"
   }
 }

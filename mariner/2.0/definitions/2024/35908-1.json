@@ -20,10 +20,10 @@
     "Description": "CVE-2024-2002 affecting package libdwarf for versions less than 0.9.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libdwarf is earlier than 0.9.0-3, affected by CVE-2024-2002",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35908000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-28425 affecting package redis for versions less than 6.2.12-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 6.2.12-1, affected by CVE-2023-28425",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:25674000"
-    }
+    },
+    "Operator": "AND"
   }
 }

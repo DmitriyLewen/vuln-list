@@ -20,10 +20,10 @@
     "Description": "CVE-2024-1737 affecting package bind for versions less than 9.16.50-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bind is earlier than 9.16.50-1, affected by CVE-2024-1737",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:46988000"
-    }
+    },
+    "Operator": "AND"
   }
 }

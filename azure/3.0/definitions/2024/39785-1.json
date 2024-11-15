@@ -20,10 +20,10 @@
     "Description": "CVE-2024-31852 affecting package rust for versions less than 1.75.0-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rust is earlier than 1.75.0-9, affected by CVE-2024-31852",
       "TestRef": "oval:com.microsoft.azurelinux:tst:39785000"
-    }
+    },
+    "Operator": "AND"
   }
 }

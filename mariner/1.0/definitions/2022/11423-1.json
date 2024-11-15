@@ -20,10 +20,10 @@
     "Description": "CVE-2022-43995 affecting package sudo 1.9.5p2-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sudo is earlier than 1.9.12p1-1, affected by CVE-2022-43995",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11423000"
-    }
+    },
+    "Operator": "AND"
   }
 }

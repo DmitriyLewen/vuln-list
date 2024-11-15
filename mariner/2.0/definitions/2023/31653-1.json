@@ -20,10 +20,10 @@
     "Description": "CVE-2023-45145 affecting package redis for versions less than 6.2.14-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 6.2.14-1, affected by CVE-2023-45145",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31653000"
-    }
+    },
+    "Operator": "AND"
   }
 }

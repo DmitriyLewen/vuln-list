@@ -20,10 +20,10 @@
     "Description": "CVE-2021-28091 affecting package lasso for versions less than 2.8.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package lasso is earlier than 2.8.0-1, affected by CVE-2021-28091",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7255000"
-    }
+    },
+    "Operator": "AND"
   }
 }

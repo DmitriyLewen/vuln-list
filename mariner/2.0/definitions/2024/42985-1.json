@@ -20,10 +20,10 @@
     "Description": "CVE-2024-29040 affecting package tpm2-tss for versions less than 2.4.6-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package tpm2-tss is earlier than 2.4.6-4, affected by CVE-2024-29040",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42985000"
-    }
+    },
+    "Operator": "AND"
   }
 }

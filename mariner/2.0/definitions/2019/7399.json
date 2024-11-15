@@ -19,10 +19,10 @@
     "Description": "CVE-2019-17414 affecting package vino 3.22.0-20. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vino is installed with version 3.22.0-20 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7399000"
-    }
+    },
+    "Operator": "AND"
   }
 }

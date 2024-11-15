@@ -20,10 +20,10 @@
     "Description": "CVE-2023-45288 affecting package kured for versions less than 1.14.2-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kured is earlier than 1.14.2-3, affected by CVE-2023-45288",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:39445000"
-    }
+    },
+    "Operator": "AND"
   }
 }

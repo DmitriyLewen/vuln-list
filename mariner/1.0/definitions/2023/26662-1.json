@@ -20,10 +20,10 @@
     "Description": "CVE-2023-32573 affecting package qt5-qtsvg 5.12.11-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qt5-qtsvg is earlier than 5.12.11-4, affected by CVE-2023-32573",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26662000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-45288 affecting package moby-compose for versions less than 2.17.3-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-compose is earlier than 2.17.3-3, affected by CVE-2023-45288",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:39325000"
-    }
+    },
+    "Operator": "AND"
   }
 }

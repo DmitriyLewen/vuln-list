@@ -20,10 +20,10 @@
     "Description": "CVE-2020-36323 affecting package rust 1.47.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rust is earlier than 1.47.0-3, affected by CVE-2020-36323",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4081000"
-    }
+    },
+    "Operator": "AND"
   }
 }

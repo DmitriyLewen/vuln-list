@@ -20,10 +20,10 @@
     "Description": "CVE-2019-19847 affecting package libspiro for versions less than 20221101-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libspiro is earlier than 20221101-1, affected by CVE-2019-19847",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7273000"
-    }
+    },
+    "Operator": "AND"
   }
 }

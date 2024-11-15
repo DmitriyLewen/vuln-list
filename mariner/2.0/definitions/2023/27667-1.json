@@ -20,10 +20,10 @@
     "Description": "CVE-2023-35945 affecting package cmake for versions less than 3.21.4-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cmake is earlier than 3.21.4-8, affected by CVE-2023-35945",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27667000"
-    }
+    },
+    "Operator": "AND"
   }
 }

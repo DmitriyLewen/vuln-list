@@ -20,10 +20,10 @@
     "Description": "CVE-2022-2309 affecting package libxml2 for versions less than 2.10.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libxml2 is earlier than 2.10.0-1, affected by CVE-2022-2309",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10058000"
-    }
+    },
+    "Operator": "AND"
   }
 }

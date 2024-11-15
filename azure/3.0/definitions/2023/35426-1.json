@@ -20,10 +20,10 @@
     "Description": "CVE-2023-50658 affecting package telegraf for versions less than 1.29.4-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package telegraf is earlier than 1.29.4-1, affected by CVE-2023-50658",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35426000"
-    }
+    },
+    "Operator": "AND"
   }
 }

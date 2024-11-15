@@ -20,10 +20,10 @@
     "Description": "CVE-2021-32762 affecting package redis for versions less than 6.2.6-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 6.2.6-1, affected by CVE-2021-32762",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6851000"
-    }
+    },
+    "Operator": "AND"
   }
 }

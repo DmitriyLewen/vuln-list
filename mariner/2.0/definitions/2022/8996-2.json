@@ -20,10 +20,10 @@
     "Description": "CVE-2022-0433 affecting package kernel for versions less than 5.15.37.1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.15.37.1-2, affected by CVE-2022-0433",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8996000"
-    }
+    },
+    "Operator": "AND"
   }
 }

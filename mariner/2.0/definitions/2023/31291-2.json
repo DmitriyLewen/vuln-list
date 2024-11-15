@@ -20,10 +20,10 @@
     "Description": "CVE-2023-44487 affecting package application-gateway-kubernetes-ingress for versions less than 1.4.0-15. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.4.0-15, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31291000"
-    }
+    },
+    "Operator": "AND"
   }
 }

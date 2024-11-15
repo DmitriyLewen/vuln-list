@@ -20,10 +20,10 @@
     "Description": "CVE-2021-38561 affecting package cni for versions less than 1.1.2-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cni is earlier than 1.1.2-2, affected by CVE-2021-38561",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41469000"
-    }
+    },
+    "Operator": "AND"
   }
 }

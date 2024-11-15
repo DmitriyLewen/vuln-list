@@ -20,10 +20,10 @@
     "Description": "CVE-2023-24056 affecting package pkgconf for versions less than 1.8.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package pkgconf is earlier than 1.8.0-3, affected by CVE-2023-24056",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13124000"
-    }
+    },
+    "Operator": "AND"
   }
 }

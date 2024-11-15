@@ -19,10 +19,10 @@
     "Description": "CVE-2021-44038 affecting package quagga 1.2.4-15. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package quagga is installed with version 1.2.4-15 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7336000"
-    }
+    },
+    "Operator": "AND"
   }
 }

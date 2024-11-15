@@ -20,10 +20,10 @@
     "Description": "CVE-2023-48236 affecting package vim for versions less than 9.0.2112-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 9.0.2112-1, affected by CVE-2023-48236",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:32012000"
-    }
+    },
+    "Operator": "AND"
   }
 }

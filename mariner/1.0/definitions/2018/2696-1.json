@@ -20,10 +20,10 @@
     "Description": "CVE-2018-21029 affecting package systemd 239-44. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd is earlier than 239-31, affected by CVE-2018-21029",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2696000"
-    }
+    },
+    "Operator": "AND"
   }
 }

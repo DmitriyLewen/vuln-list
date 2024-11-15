@@ -20,10 +20,10 @@
     "Description": "CVE-2022-1966 affecting package kernel 5.10.117.1-2. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.10.123.1-1, affected by CVE-2022-1966",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9922000"
-    }
+    },
+    "Operator": "AND"
   }
 }

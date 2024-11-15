@@ -19,10 +19,10 @@
     "Description": "CVE-2020-35503 affecting package qemu-kvm 4.2.0-48. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qemu-kvm is installed with version 4.2.0-48 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4341000"
-    }
+    },
+    "Operator": "AND"
   }
 }

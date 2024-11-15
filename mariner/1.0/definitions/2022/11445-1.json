@@ -20,10 +20,10 @@
     "Description": "CVE-2022-45061 affecting package python3 3.7.13-6. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python3 is earlier than 3.7.16-1, affected by CVE-2022-45061",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11445000"
-    }
+    },
+    "Operator": "AND"
   }
 }

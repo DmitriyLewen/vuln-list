@@ -20,10 +20,10 @@
     "Description": "CVE-2023-32006 affecting package nodejs for versions less than 16.20.2-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 16.20.2-2, affected by CVE-2023-32006",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27941000"
-    }
+    },
+    "Operator": "AND"
   }
 }

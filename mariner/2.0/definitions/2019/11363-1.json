@@ -20,10 +20,10 @@
     "Description": "CVE-2019-25051 affecting package aspell for versions less than 0.60.8-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package aspell is earlier than 0.60.8-7, affected by CVE-2019-25051",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11363000"
-    }
+    },
+    "Operator": "AND"
   }
 }

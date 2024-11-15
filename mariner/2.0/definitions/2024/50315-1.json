@@ -20,10 +20,10 @@
     "Description": "CVE-2024-48957 affecting package libarchive for versions less than 3.6.1-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libarchive is earlier than 3.6.1-4, affected by CVE-2024-48957",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:50315000"
-    }
+    },
+    "Operator": "AND"
   }
 }

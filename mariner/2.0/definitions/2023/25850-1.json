@@ -20,10 +20,10 @@
     "Description": "CVE-2023-28642 affecting package moby-runc for versions less than 1.1.5-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-runc is earlier than 1.1.5-1, affected by CVE-2023-28642",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:25850000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2017-15370 affecting package sox for versions less than 14.4.2.0-33. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sox is earlier than 14.4.2.0-33, affected by CVE-2017-15370",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:43930000"
-    }
+    },
+    "Operator": "AND"
   }
 }

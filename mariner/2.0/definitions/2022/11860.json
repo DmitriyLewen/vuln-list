@@ -19,10 +19,10 @@
     "Description": "CVE-2022-4603 affecting package ppp 2.4.7-36. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ppp is installed with version 2.4.7-36 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11860000"
-    }
+    },
+    "Operator": "AND"
   }
 }

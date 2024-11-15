@@ -20,10 +20,10 @@
     "Description": "CVE-2021-45444 affecting package zsh 5.8-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package zsh is earlier than 5.8.1-1, affected by CVE-2021-45444",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8573000"
-    }
+    },
+    "Operator": "AND"
   }
 }

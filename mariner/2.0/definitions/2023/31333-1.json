@@ -20,10 +20,10 @@
     "Description": "CVE-2023-44487 affecting package nginx for versions less than 1.22.1-11. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nginx is earlier than 1.22.1-11, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31333000"
-    }
+    },
+    "Operator": "AND"
   }
 }

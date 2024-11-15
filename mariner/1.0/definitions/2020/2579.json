@@ -20,10 +20,10 @@
     "Description": "CVE-2020-25792 affecting package rust 1.39.0-7. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rust is earlier than 1.47.0-3, affected by CVE-2020-25792",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2579000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-45985 affecting package memcached for versions less than 1.6.13-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package memcached is earlier than 1.6.13-3, affected by CVE-2021-45985",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26155000"
-    }
+    },
+    "Operator": "AND"
   }
 }

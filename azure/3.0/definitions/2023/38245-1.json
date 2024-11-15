@@ -20,10 +20,10 @@
     "Description": "CVE-2023-51714 affecting package qtbase for versions less than 6.6.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qtbase is earlier than 6.6.2-1, affected by CVE-2023-51714",
       "TestRef": "oval:com.microsoft.azurelinux:tst:38245000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-42771 affecting package babel 2.6.0-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package babel is earlier than 2.6.0-9, affected by CVE-2021-42771",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6032000"
-    }
+    },
+    "Operator": "AND"
   }
 }

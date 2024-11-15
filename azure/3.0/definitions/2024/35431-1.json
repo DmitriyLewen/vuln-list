@@ -20,10 +20,10 @@
     "Description": "CVE-2024-20328 affecting package clamav for versions less than 1.0.6-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package clamav is earlier than 1.0.6-1, affected by CVE-2024-20328",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35431000"
-    }
+    },
+    "Operator": "AND"
   }
 }

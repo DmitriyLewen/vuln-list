@@ -20,10 +20,10 @@
     "Description": "CVE-2023-25193 affecting package harfbuzz for versions less than 3.4.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package harfbuzz is earlier than 3.4.0-3, affected by CVE-2023-25193",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13303000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-41098 affecting package kernel for versions less than 6.6.43.1-7. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 6.6.43.1-7, affected by CVE-2024-41098",
       "TestRef": "oval:com.microsoft.azurelinux:tst:47537000"
-    }
+    },
+    "Operator": "AND"
   }
 }

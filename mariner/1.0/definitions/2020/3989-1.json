@@ -20,10 +20,10 @@
     "Description": "CVE-2020-27170 affecting package kernel 5.10.189.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.10.60.1-1, affected by CVE-2020-27170",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3989000"
-    }
+    },
+    "Operator": "AND"
   }
 }

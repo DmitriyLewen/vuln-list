@@ -20,10 +20,10 @@
     "Description": "CVE-2019-20503 affecting package usrsctp for versions less than 0.9.5.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package usrsctp is earlier than 0.9.5.0-1, affected by CVE-2019-20503",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9920000"
-    }
+    },
+    "Operator": "AND"
   }
 }

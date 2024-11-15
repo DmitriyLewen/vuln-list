@@ -20,10 +20,10 @@
     "Description": "CVE-2024-0760 affecting package bind for versions less than 9.20.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bind is earlier than 9.20.0-1, affected by CVE-2024-0760",
       "TestRef": "oval:com.microsoft.azurelinux:tst:46972000"
-    }
+    },
+    "Operator": "AND"
   }
 }

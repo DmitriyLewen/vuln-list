@@ -20,10 +20,10 @@
     "Description": "CVE-2017-16844 affecting package procmail for versions less than 3.22-53. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package procmail is earlier than 3.22-53, affected by CVE-2017-16844",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7332000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-47022 affecting package hwloc for versions less than 2.5.0-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package hwloc is earlier than 2.5.0-2, affected by CVE-2022-47022",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:28092000"
-    }
+    },
+    "Operator": "AND"
   }
 }

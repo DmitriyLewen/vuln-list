@@ -19,10 +19,10 @@
     "Description": "CVE-2016-1000104 affecting package mod_fcgid 2.3.9-21. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mod_fcgid is installed with version 2.3.9-21 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7290000"
-    }
+    },
+    "Operator": "AND"
   }
 }

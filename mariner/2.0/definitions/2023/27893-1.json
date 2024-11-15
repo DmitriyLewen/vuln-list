@@ -20,10 +20,10 @@
     "Description": "CVE-2023-3896 affecting package vim for versions less than 9.0.1562-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 9.0.1562-2, affected by CVE-2023-3896",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27893000"
-    }
+    },
+    "Operator": "AND"
   }
 }

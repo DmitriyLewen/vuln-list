@@ -20,10 +20,10 @@
     "Description": "CVE-2020-13645 affecting package glib-networking for versions less than 2.59.1-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package glib-networking is earlier than 2.59.1-8, affected by CVE-2020-13645",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6440000"
-    }
+    },
+    "Operator": "AND"
   }
 }

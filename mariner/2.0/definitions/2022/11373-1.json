@@ -20,10 +20,10 @@
     "Description": "CVE-2022-41974 affecting package device-mapper-multipath for versions less than 0.8.6-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package device-mapper-multipath is earlier than 0.8.6-4, affected by CVE-2022-41974",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11373000"
-    }
+    },
+    "Operator": "AND"
   }
 }

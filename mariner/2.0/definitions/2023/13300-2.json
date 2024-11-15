@@ -20,10 +20,10 @@
     "Description": "CVE-2023-25165 affecting package cert-manager for versions less than 1.7.3-8. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cert-manager is earlier than 1.7.3-8, affected by CVE-2023-25165",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13300000"
-    }
+    },
+    "Operator": "AND"
   }
 }

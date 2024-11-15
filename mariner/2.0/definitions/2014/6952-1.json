@@ -20,10 +20,10 @@
     "Description": "CVE-2014-9638 affecting package vorbis-tools for versions less than 1.4.0-35. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vorbis-tools is earlier than 1.4.0-35, affected by CVE-2014-9638",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6952000"
-    }
+    },
+    "Operator": "AND"
   }
 }

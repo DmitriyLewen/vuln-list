@@ -20,10 +20,10 @@
     "Description": "CVE-2022-45873 affecting package systemd-bootstrap for versions less than 250.3-17. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-45873",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41470000"
-    }
+    },
+    "Operator": "AND"
   }
 }

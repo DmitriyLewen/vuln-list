@@ -20,10 +20,10 @@
     "Description": "CVE-2023-25153 affecting package moby-engine for versions less than 20.10.14-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-engine is earlier than 20.10.14-7, affected by CVE-2023-25153",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13584000"
-    }
+    },
+    "Operator": "AND"
   }
 }

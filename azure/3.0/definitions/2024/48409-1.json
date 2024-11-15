@@ -20,10 +20,10 @@
     "Description": "CVE-2024-8006 affecting package libpcap for versions less than 1.10.5-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libpcap is earlier than 1.10.5-1, affected by CVE-2024-8006",
       "TestRef": "oval:com.microsoft.azurelinux:tst:48409000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2008-3908 affecting package wordnet for versions less than 3.0-38. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package wordnet is earlier than 3.0-38, affected by CVE-2008-3908",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7423000"
-    }
+    },
+    "Operator": "AND"
   }
 }

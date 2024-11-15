@@ -20,10 +20,10 @@
     "Description": "CVE-2018-14348 affecting package libcgroup for versions less than 0.41-23. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libcgroup is earlier than 0.41-23, affected by CVE-2018-14348",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6615000"
-    }
+    },
+    "Operator": "AND"
   }
 }

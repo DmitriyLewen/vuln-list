@@ -20,10 +20,10 @@
     "Description": "CVE-2010-0298 affecting package kernel for versions less than 6.6.35.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 6.6.35.1-1, affected by CVE-2010-0298",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34844000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6104 affecting package cert-manager for versions less than 1.12.12-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cert-manager is earlier than 1.12.12-3, affected by CVE-2024-6104",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42880000"
-    }
+    },
+    "Operator": "AND"
   }
 }

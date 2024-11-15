@@ -20,10 +20,10 @@
     "Description": "CVE-2022-41721 affecting package opa for versions less than 0.50.2-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package opa is earlier than 0.50.2-5, affected by CVE-2022-41721",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13029000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2022-36049 affecting package helm 3.4.1-17. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package helm is installed with version 3.4.1-17 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10899000"
-    }
+    },
+    "Operator": "AND"
   }
 }

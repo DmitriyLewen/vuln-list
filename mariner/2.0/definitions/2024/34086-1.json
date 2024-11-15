@@ -20,10 +20,10 @@
     "Description": "CVE-2024-23652 affecting package moby-engine for versions less than 20.10.27-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-engine is earlier than 20.10.27-4, affected by CVE-2024-23652",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34086000"
-    }
+    },
+    "Operator": "AND"
   }
 }

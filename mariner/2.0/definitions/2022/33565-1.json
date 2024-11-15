@@ -20,10 +20,10 @@
     "Description": "CVE-2022-32149 affecting package application-gateway-kubernetes-ingress for versions less than 1.4.0-23. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.4.0-23, affected by CVE-2022-32149",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33565000"
-    }
+    },
+    "Operator": "AND"
   }
 }

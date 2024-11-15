@@ -20,10 +20,10 @@
     "Description": "CVE-2024-32487 affecting package less for versions less than 643-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package less is earlier than 643-2, affected by CVE-2024-32487",
       "TestRef": "oval:com.microsoft.azurelinux:tst:39914000"
-    }
+    },
+    "Operator": "AND"
   }
 }

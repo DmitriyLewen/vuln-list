@@ -19,10 +19,10 @@
     "Description": "CVE-2022-28506 affecting package giflib 5.2.1-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package giflib is installed with version 5.2.1-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9583000"
-    }
+    },
+    "Operator": "AND"
   }
 }

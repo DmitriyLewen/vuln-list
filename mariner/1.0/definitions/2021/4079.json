@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3448 affecting package dnsmasq 2.84-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package dnsmasq is earlier than 2.85-1, affected by CVE-2021-3448",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4079000"
-    }
+    },
+    "Operator": "AND"
   }
 }

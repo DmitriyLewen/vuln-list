@@ -20,10 +20,10 @@
     "Description": "CVE-2023-33460 affecting package yajl 2.1.0-17. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package yajl is earlier than 2.1.0-18, affected by CVE-2023-33460",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27147000"
-    }
+    },
+    "Operator": "AND"
   }
 }

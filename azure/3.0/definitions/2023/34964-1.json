@@ -19,10 +19,10 @@
     "Description": "CVE-2023-44487 affecting package local-path-provisioner for versions less than 0.0.21-12. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package local-path-provisioner is earlier than 0.0.21-12, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34964000"
-    }
+    },
+    "Operator": "AND"
   }
 }

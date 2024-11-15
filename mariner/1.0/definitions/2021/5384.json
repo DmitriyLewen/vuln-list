@@ -20,10 +20,10 @@
     "Description": "CVE-2021-38604 affecting package glibc 2.28-24. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package glibc is earlier than 2.28-20, affected by CVE-2021-38604",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:5384000"
-    }
+    },
+    "Operator": "AND"
   }
 }

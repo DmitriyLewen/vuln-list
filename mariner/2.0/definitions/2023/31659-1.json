@@ -20,10 +20,10 @@
     "Description": "CVE-2023-3354 affecting package qemu for versions less than 6.2.0-19. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qemu is earlier than 6.2.0-19, affected by CVE-2023-3354",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31659000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-33065 affecting package libsndfile for versions less than 1.0.31-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libsndfile is earlier than 1.0.31-3, affected by CVE-2022-33065",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27647000"
-    }
+    },
+    "Operator": "AND"
   }
 }

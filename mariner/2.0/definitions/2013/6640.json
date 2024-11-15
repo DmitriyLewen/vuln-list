@@ -19,10 +19,10 @@
     "Description": "CVE-2013-7381 affecting package libnotify 0.7.9-4. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libnotify is installed with version 0.7.9-4 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6640000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-5345 affecting package hyperv-daemons for versions less than 5.15.135.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package hyperv-daemons is earlier than 5.15.135.1-1, affected by CVE-2023-5345",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31730000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-27457 affecting package mariadb 10.3.35-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mariadb is earlier than 10.3.36-1, affected by CVE-2022-27457",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9439000"
-    }
+    },
+    "Operator": "AND"
   }
 }

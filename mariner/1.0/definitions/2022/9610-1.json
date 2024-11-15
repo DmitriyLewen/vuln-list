@@ -20,10 +20,10 @@
     "Description": "CVE-2022-29869 affecting package cifs-utils 6.8-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cifs-utils is earlier than 6.8-6, affected by CVE-2022-29869",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9610000"
-    }
+    },
+    "Operator": "AND"
   }
 }

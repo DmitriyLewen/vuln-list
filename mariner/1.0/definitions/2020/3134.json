@@ -20,10 +20,10 @@
     "Description": "CVE-2020-25613 affecting package ruby 2.6.6-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ruby is earlier than 2.6.6-2, affected by CVE-2020-25613",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3134000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-28131 affecting package golang 1.18.3-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package golang is earlier than 1.18.5-1, affected by CVE-2022-28131",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10513000"
-    }
+    },
+    "Operator": "AND"
   }
 }

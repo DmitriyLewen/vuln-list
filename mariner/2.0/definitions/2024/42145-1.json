@@ -20,10 +20,10 @@
     "Description": "CVE-2024-35195 affecting package python-requests for versions less than 2.27.1-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-requests is earlier than 2.27.1-7, affected by CVE-2024-35195",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42145000"
-    }
+    },
+    "Operator": "AND"
   }
 }

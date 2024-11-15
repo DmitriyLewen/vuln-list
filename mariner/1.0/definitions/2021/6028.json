@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3872 affecting package vim 8.2.3441-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 8.2.3564-2, affected by CVE-2021-3872",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6028000"
-    }
+    },
+    "Operator": "AND"
   }
 }

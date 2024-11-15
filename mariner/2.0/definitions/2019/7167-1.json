@@ -20,10 +20,10 @@
     "Description": "CVE-2019-9210 affecting package advancecomp for versions less than 2.1-14. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package advancecomp is earlier than 2.1-14, affected by CVE-2019-9210",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7167000"
-    }
+    },
+    "Operator": "AND"
   }
 }

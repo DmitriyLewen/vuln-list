@@ -19,10 +19,10 @@
     "Description": "CVE-2021-25741 affecting package kubernetes-1.20.7 1.20.7-9. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubernetes-1.20.7 is installed with version 1.20.7-9 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:5913000"
-    }
+    },
+    "Operator": "AND"
   }
 }

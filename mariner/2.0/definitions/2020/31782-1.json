@@ -20,10 +20,10 @@
     "Description": "CVE-2020-14343 affecting package PyYAML for versions less than 5.4.1-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package PyYAML is earlier than 5.4.1-1, affected by CVE-2020-14343",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31782000"
-    }
+    },
+    "Operator": "AND"
   }
 }

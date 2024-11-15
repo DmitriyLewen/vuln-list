@@ -20,10 +20,10 @@
     "Description": "CVE-2023-23915 affecting package curl 7.86.0-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package curl is earlier than 7.88.1-1, affected by CVE-2023-23915",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13629000"
-    }
+    },
+    "Operator": "AND"
   }
 }

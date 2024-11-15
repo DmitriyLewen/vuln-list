@@ -20,10 +20,10 @@
     "Description": "CVE-2021-44716 affecting package csi-driver-lvm for versions less than 0.4.1-15. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package csi-driver-lvm is earlier than 0.4.1-15, affected by CVE-2021-44716",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33577000"
-    }
+    },
+    "Operator": "AND"
   }
 }

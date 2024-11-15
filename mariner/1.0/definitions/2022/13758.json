@@ -19,10 +19,10 @@
     "Description": "CVE-2022-41862 affecting package postgresql 12.15-1. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package postgresql is installed with version 12.15-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13758000"
-    }
+    },
+    "Operator": "AND"
   }
 }

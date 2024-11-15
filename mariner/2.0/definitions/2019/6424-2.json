@@ -20,10 +20,10 @@
     "Description": "CVE-2019-6293 affecting package flex for versions less than 2.6.4-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package flex is earlier than 2.6.4-7, affected by CVE-2019-6293",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6424000"
-    }
+    },
+    "Operator": "AND"
   }
 }

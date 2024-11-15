@@ -19,10 +19,10 @@
     "Description": "CVE-2023-45853 affecting package cloud-hypervisor for versions less than 32.0-2. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cloud-hypervisor is earlier than 32.0-2, affected by CVE-2023-45853",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34597000"
-    }
+    },
+    "Operator": "AND"
   }
 }

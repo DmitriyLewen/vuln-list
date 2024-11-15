@@ -20,10 +20,10 @@
     "Description": "CVE-2017-3614 affecting package libdb 5.3.28-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libdb is earlier than 5.3.28-5, affected by CVE-2017-3614",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4673000"
-    }
+    },
+    "Operator": "AND"
   }
 }

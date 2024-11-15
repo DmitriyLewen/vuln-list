@@ -19,10 +19,10 @@
     "Description": "CVE-2022-30698 affecting package unbound 1.10.0-5. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package unbound is installed with version 1.10.0-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10458000"
-    }
+    },
+    "Operator": "AND"
   }
 }

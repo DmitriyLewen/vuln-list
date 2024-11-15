@@ -20,10 +20,10 @@
     "Description": "CVE-2022-41741 affecting package nginx 1.20.1-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nginx is earlier than 1.22.1-1, affected by CVE-2022-41741",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11335000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2012-4575 affecting package postgresql 12.1-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package postgresql is earlier than 12.7-1, affected by CVE-2012-4575",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2660000"
-    }
+    },
+    "Operator": "AND"
   }
 }

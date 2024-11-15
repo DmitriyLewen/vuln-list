@@ -19,10 +19,10 @@
     "Description": "CVE-2007-1397 affecting package fish 3.6.2-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package fish is installed with version 3.6.2-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10002000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2022-38096 affecting package kernel 5.10.189.1-1. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is installed with version 5.10.189.1-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10951000"
-    }
+    },
+    "Operator": "AND"
   }
 }

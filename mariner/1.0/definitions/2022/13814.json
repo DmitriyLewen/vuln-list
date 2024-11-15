@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3857 affecting package qt5-qtbase 5.12.11-7. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qt5-qtbase is installed with version 5.12.11-7 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13814000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-4217 affecting package unzip 6.0-18. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package unzip is earlier than 6.0-19, affected by CVE-2021-4217",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10708000"
-    }
+    },
+    "Operator": "AND"
   }
 }

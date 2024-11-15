@@ -19,10 +19,10 @@
     "Description": "CVE-2017-5834 affecting package libplist 2.1.0-4. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libplist is installed with version 2.1.0-4 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7267000"
-    }
+    },
+    "Operator": "AND"
   }
 }

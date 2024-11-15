@@ -20,10 +20,10 @@
     "Description": "CVE-2023-49284 affecting package fish for versions less than 3.6.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package fish is earlier than 3.6.2-1, affected by CVE-2023-49284",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:32081000"
-    }
+    },
+    "Operator": "AND"
   }
 }

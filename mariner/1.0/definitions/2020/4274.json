@@ -19,10 +19,10 @@
     "Description": "CVE-2020-8563 affecting package kubernetes-1.18.14 1.18.14-8. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubernetes-1.18.14 is installed with version 1.18.14-8 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4274000"
-    }
+    },
+    "Operator": "AND"
   }
 }

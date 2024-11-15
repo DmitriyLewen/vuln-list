@@ -20,10 +20,10 @@
     "Description": "CVE-2022-2287 affecting package vim for versions less than 9.0.0050-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 9.0.0050-2, affected by CVE-2022-2287",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10017000"
-    }
+    },
+    "Operator": "AND"
   }
 }

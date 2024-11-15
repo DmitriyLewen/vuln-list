@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3733 affecting package python2 2.7.18-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python2 is earlier than 2.7.18-10, affected by CVE-2021-3733",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9820000"
-    }
+    },
+    "Operator": "AND"
   }
 }

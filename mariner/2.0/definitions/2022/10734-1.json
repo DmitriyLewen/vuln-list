@@ -20,10 +20,10 @@
     "Description": "CVE-2022-2255 affecting package mod_wsgi for versions less than 4.9.3-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mod_wsgi is earlier than 4.9.3-2, affected by CVE-2022-2255",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10734000"
-    }
+    },
+    "Operator": "AND"
   }
 }

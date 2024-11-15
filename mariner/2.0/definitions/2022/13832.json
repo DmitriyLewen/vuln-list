@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3857 affecting package syslinux 6.04-10. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package syslinux is installed with version 6.04-10 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13832000"
-    }
+    },
+    "Operator": "AND"
   }
 }

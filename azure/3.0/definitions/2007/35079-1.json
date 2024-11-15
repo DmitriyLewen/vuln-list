@@ -20,10 +20,10 @@
     "Description": "CVE-2007-2768 affecting package openssh for versions less than 9.5p1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssh is earlier than 9.5p1-2, affected by CVE-2007-2768",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35079000"
-    }
+    },
+    "Operator": "AND"
   }
 }

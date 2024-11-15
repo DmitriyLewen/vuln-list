@@ -19,10 +19,10 @@
     "Description": "CVE-2020-8908 affecting package guava 25.0-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package guava is installed with version 25.0-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7240000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24806 affecting package nodejs18 for versions less than 18.18.2-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs18 is earlier than 18.18.2-4, affected by CVE-2024-24806",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34278000"
-    }
+    },
+    "Operator": "AND"
   }
 }

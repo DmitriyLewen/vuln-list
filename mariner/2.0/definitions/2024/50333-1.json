@@ -19,10 +19,10 @@
     "Description": "CVE-2024-49214 affecting package haproxy for versions less than 2.4.24-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package haproxy is earlier than 2.4.24-1, affected by CVE-2024-49214",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:50333000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-0567 affecting package gnutls for versions less than 3.7.7-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package gnutls is earlier than 3.7.7-4, affected by CVE-2024-0567",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33340000"
-    }
+    },
+    "Operator": "AND"
   }
 }

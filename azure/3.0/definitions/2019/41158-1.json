@@ -20,10 +20,10 @@
     "Description": "CVE-2019-0205 affecting package influxdb for versions less than 2.7.3-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package influxdb is earlier than 2.7.3-4, affected by CVE-2019-0205",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41158000"
-    }
+    },
+    "Operator": "AND"
   }
 }

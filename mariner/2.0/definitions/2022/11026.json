@@ -19,10 +19,10 @@
     "Description": "CVE-2022-38752 affecting package snakeyaml 1.25-2. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package snakeyaml is installed with version 1.25-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11026000"
-    }
+    },
+    "Operator": "AND"
   }
 }

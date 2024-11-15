@@ -20,10 +20,10 @@
     "Description": "CVE-2020-14387 affecting package rsync for versions less than 3.2.3-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rsync is earlier than 3.2.3-2, affected by CVE-2020-14387",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7462000"
-    }
+    },
+    "Operator": "AND"
   }
 }

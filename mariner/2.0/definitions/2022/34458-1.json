@@ -20,10 +20,10 @@
     "Description": "CVE-2022-48624 affecting package less for versions less than 590-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package less is earlier than 590-3, affected by CVE-2022-48624",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34458000"
-    }
+    },
+    "Operator": "AND"
   }
 }

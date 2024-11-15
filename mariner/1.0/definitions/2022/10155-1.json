@@ -20,10 +20,10 @@
     "Description": "CVE-2022-32214 affecting package nodejs 14.18.3-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 14.20.0-1, affected by CVE-2022-32214",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10155000"
-    }
+    },
+    "Operator": "AND"
   }
 }

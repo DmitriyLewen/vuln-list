@@ -19,10 +19,10 @@
     "Description": "CVE-2023-48795 affecting package jsch for versions less than 0.1.55-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package jsch is earlier than 0.1.55-2, affected by CVE-2023-48795",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:32259000"
-    }
+    },
+    "Operator": "AND"
   }
 }

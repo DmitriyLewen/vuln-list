@@ -20,10 +20,10 @@
     "Description": "CVE-2020-27827 affecting package lldpd for versions less than 1.0.14-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package lldpd is earlier than 1.0.14-1, affected by CVE-2020-27827",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10443000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2021-41186 affecting package rubygem-fluentd 1.11.0-1. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rubygem-fluentd is installed with version 1.11.0-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6279000"
-    }
+    },
+    "Operator": "AND"
   }
 }

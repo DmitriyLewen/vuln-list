@@ -20,10 +20,10 @@
     "Description": "CVE-2019-11835 affecting package libglvnd for versions less than 1.7.0-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libglvnd is earlier than 1.7.0-2, affected by CVE-2019-11835",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41390000"
-    }
+    },
+    "Operator": "AND"
   }
 }

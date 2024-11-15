@@ -20,10 +20,10 @@
     "Description": "CVE-2022-28739 affecting package ruby 2.6.9-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ruby is earlier than 2.6.10-1, affected by CVE-2022-28739",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9746000"
-    }
+    },
+    "Operator": "AND"
   }
 }

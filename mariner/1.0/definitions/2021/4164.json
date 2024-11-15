@@ -20,10 +20,10 @@
     "Description": "CVE-2021-26291 affecting package maven 3.5.4-13. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package maven is earlier than 3.8.1-1, affected by CVE-2021-26291",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4164000"
-    }
+    },
+    "Operator": "AND"
   }
 }

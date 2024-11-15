@@ -20,10 +20,10 @@
     "Description": "CVE-2023-44487 affecting package jx for versions less than 3.2.236-13. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package jx is earlier than 3.2.236-13, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31313000"
-    }
+    },
+    "Operator": "AND"
   }
 }

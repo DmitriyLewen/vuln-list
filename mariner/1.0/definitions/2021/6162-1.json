@@ -20,10 +20,10 @@
     "Description": "CVE-2021-43057 affecting package kernel 5.10.168.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.10.78.1-2, affected by CVE-2021-43057",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6162000"
-    }
+    },
+    "Operator": "AND"
   }
 }

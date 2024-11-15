@@ -20,10 +20,10 @@
     "Description": "CVE-2024-34088 affecting package frr for versions less than 8.5.3-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package frr is earlier than 8.5.3-6, affected by CVE-2024-34088",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:40261000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2018-25032 affecting package boost for versions less than 1.76.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package boost is earlier than 1.76.0-3, affected by CVE-2018-25032",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26135000"
-    }
+    },
+    "Operator": "AND"
   }
 }

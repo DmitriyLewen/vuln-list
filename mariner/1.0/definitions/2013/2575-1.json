@@ -20,10 +20,10 @@
     "Description": "CVE-2013-0223 affecting package coreutils 8.30-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package coreutils is earlier than 8.30-7, affected by CVE-2013-0223",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2575000"
-    }
+    },
+    "Operator": "AND"
   }
 }

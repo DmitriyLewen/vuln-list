@@ -20,10 +20,10 @@
     "Description": "CVE-2020-26159 affecting package oniguruma 6.9.5-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package oniguruma is earlier than 6.9.5-2, affected by CVE-2020-26159",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3126000"
-    }
+    },
+    "Operator": "AND"
   }
 }

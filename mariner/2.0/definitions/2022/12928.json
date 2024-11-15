@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3064 affecting package application-gateway-kubernetes-ingress 1.4.0-23. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package application-gateway-kubernetes-ingress is installed with version 1.4.0-23 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12928000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-28322 affecting package curl for versions less than 8.0.1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package curl is earlier than 8.0.1-2, affected by CVE-2023-28322",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26792000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-36227 affecting package libarchive 3.6.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libarchive is earlier than 3.6.1-2, affected by CVE-2022-36227",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11473000"
-    }
+    },
+    "Operator": "AND"
   }
 }

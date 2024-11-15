@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21698 affecting package node-problem-detector for versions less than 0.8.15-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package node-problem-detector is earlier than 0.8.15-1, affected by CVE-2022-21698",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35040000"
-    }
+    },
+    "Operator": "AND"
   }
 }

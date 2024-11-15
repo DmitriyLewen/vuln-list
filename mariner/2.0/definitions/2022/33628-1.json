@@ -20,10 +20,10 @@
     "Description": "CVE-2022-32149 affecting package node-problem-detector for versions less than 0.8.17-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package node-problem-detector is earlier than 0.8.17-2, affected by CVE-2022-32149",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33628000"
-    }
+    },
+    "Operator": "AND"
   }
 }

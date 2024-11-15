@@ -20,10 +20,10 @@
     "Description": "CVE-2023-5408 affecting package kubernetes for versions less than 1.29.1-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubernetes is earlier than 1.29.1-2, affected by CVE-2023-5408",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34898000"
-    }
+    },
+    "Operator": "AND"
   }
 }

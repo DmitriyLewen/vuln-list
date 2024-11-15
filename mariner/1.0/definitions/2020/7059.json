@@ -20,10 +20,10 @@
     "Description": "CVE-2020-8561 affecting package kubernetes 1.22.4-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubernetes is earlier than 1.22.6-1, affected by CVE-2020-8561",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7059000"
-    }
+    },
+    "Operator": "AND"
   }
 }

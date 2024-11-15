@@ -20,10 +20,10 @@
     "Description": "CVE-2023-30630 affecting package dmidecode for versions less than 3.5-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package dmidecode is earlier than 3.5-1, affected by CVE-2023-30630",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26138000"
-    }
+    },
+    "Operator": "AND"
   }
 }

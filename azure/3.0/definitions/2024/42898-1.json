@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6104 affecting package prometheus for versions less than 2.45.4-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package prometheus is earlier than 2.45.4-3, affected by CVE-2024-6104",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42898000"
-    }
+    },
+    "Operator": "AND"
   }
 }

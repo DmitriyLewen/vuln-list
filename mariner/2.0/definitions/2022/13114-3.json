@@ -20,10 +20,10 @@
     "Description": "CVE-2022-4285 affecting package binutils for versions less than 2.37-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package binutils is earlier than 2.37-5, affected by CVE-2022-4285",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13114000"
-    }
+    },
+    "Operator": "AND"
   }
 }

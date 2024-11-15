@@ -20,10 +20,10 @@
     "Description": "CVE-2021-44716 affecting package flannel for versions less than 0.14.0-21. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package flannel is earlier than 0.14.0-21, affected by CVE-2021-44716",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33581000"
-    }
+    },
+    "Operator": "AND"
   }
 }

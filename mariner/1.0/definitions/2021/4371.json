@@ -20,10 +20,10 @@
     "Description": "CVE-2021-26691 affecting package httpd 2.4.46-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package httpd is earlier than 2.4.46-5, affected by CVE-2021-26691",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4371000"
-    }
+    },
+    "Operator": "AND"
   }
 }

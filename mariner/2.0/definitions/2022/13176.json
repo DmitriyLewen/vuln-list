@@ -19,10 +19,10 @@
     "Description": "CVE-2022-45639 affecting package sleuthkit 4.9.0-4. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sleuthkit is installed with version 4.9.0-4 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13176000"
-    }
+    },
+    "Operator": "AND"
   }
 }

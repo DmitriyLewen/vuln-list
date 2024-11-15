@@ -20,10 +20,10 @@
     "Description": "CVE-2023-2828 affecting package bind 9.16.37-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bind is earlier than 9.16.37-2, affected by CVE-2023-2828",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27209000"
-    }
+    },
+    "Operator": "AND"
   }
 }

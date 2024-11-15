@@ -20,10 +20,10 @@
     "Description": "CVE-2018-1000156 affecting package patch for versions less than 2.7.6-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package patch is earlier than 2.7.6-7, affected by CVE-2018-1000156",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6785000"
-    }
+    },
+    "Operator": "AND"
   }
 }

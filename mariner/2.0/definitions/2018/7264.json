@@ -19,10 +19,10 @@
     "Description": "CVE-2018-7263 affecting package libmad 0.15.1b-30. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libmad is installed with version 0.15.1b-30 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7264000"
-    }
+    },
+    "Operator": "AND"
   }
 }

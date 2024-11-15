@@ -19,10 +19,10 @@
     "Description": "CVE-2023-50782 affecting package python-cryptography for versions less than 3.3.2-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-cryptography is earlier than 3.3.2-7, affected by CVE-2023-50782",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34309000"
-    }
+    },
+    "Operator": "AND"
   }
 }

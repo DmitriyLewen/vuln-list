@@ -20,10 +20,10 @@
     "Description": "CVE-2022-0908 affecting package libtiff for versions less than 4.3.0-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libtiff is earlier than 4.3.0-2, affected by CVE-2022-0908",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9021000"
-    }
+    },
+    "Operator": "AND"
   }
 }

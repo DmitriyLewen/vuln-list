@@ -20,10 +20,10 @@
     "Description": "CVE-2023-37460 affecting package javapackages-bootstrap for versions less than 1.5.0-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package javapackages-bootstrap is earlier than 1.5.0-4, affected by CVE-2023-37460",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27645000"
-    }
+    },
+    "Operator": "AND"
   }
 }

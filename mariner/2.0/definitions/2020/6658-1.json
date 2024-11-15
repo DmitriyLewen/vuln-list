@@ -20,10 +20,10 @@
     "Description": "CVE-2020-25637 affecting package libvirt for versions less than 6.1.0-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libvirt is earlier than 6.1.0-4, affected by CVE-2020-25637",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6658000"
-    }
+    },
+    "Operator": "AND"
   }
 }

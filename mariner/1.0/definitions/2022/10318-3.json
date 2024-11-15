@@ -20,10 +20,10 @@
     "Description": "CVE-2022-31144 affecting package redis 6.2.7-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 6.2.9-1, affected by CVE-2022-31144",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10318000"
-    }
+    },
+    "Operator": "AND"
   }
 }

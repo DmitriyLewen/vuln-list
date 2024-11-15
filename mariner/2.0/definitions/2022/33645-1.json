@@ -20,10 +20,10 @@
     "Description": "CVE-2022-41717 affecting package sriov-network-device-plugin for versions less than 3.6.2-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sriov-network-device-plugin is earlier than 3.6.2-2, affected by CVE-2022-41717",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33645000"
-    }
+    },
+    "Operator": "AND"
   }
 }

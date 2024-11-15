@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24786 affecting package moby-compose for versions less than 2.17.3-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-compose is earlier than 2.17.3-5, affected by CVE-2024-24786",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35583000"
-    }
+    },
+    "Operator": "AND"
   }
 }

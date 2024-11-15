@@ -19,10 +19,10 @@
     "Description": "CVE-2021-3672 affecting package pgbouncer 1.16.1-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package pgbouncer is installed with version 1.16.1-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11165000"
-    }
+    },
+    "Operator": "AND"
   }
 }

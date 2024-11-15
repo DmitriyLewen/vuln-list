@@ -19,10 +19,10 @@
     "Description": "CVE-2019-14249 affecting package libdwarf for versions less than 0.9.0. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libdwarf is earlier than 0.9.0, affected by CVE-2019-14249",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33329000"
-    }
+    },
+    "Operator": "AND"
   }
 }

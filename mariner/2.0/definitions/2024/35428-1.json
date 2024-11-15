@@ -20,10 +20,10 @@
     "Description": "CVE-2024-20328 affecting package clamav for versions less than 0.105.2-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package clamav is earlier than 0.105.2-5, affected by CVE-2024-20328",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35428000"
-    }
+    },
+    "Operator": "AND"
   }
 }

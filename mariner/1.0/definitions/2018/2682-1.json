@@ -20,10 +20,10 @@
     "Description": "CVE-2018-13420 affecting package gperftools 2.7-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package gperftools is earlier than 2.7-4, affected by CVE-2018-13420",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2682000"
-    }
+    },
+    "Operator": "AND"
   }
 }

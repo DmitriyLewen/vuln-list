@@ -20,10 +20,10 @@
     "Description": "CVE-2019-16905 affecting package openssh 8.0p1-13. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssh is earlier than 8.0p1-9, affected by CVE-2019-16905",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2523000"
-    }
+    },
+    "Operator": "AND"
   }
 }

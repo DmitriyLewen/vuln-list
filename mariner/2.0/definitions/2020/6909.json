@@ -19,10 +19,10 @@
     "Description": "CVE-2020-17527 affecting package tomcat for versions less than 9.0.39-5. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package tomcat is installed with version 9.0.39-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6909000"
-    }
+    },
+    "Operator": "AND"
   }
 }

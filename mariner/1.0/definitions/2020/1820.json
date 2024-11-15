@@ -20,10 +20,10 @@
     "Description": "CVE-2020-14155 affecting package pcre 8.42-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package pcre is earlier than 8.44-1, affected by CVE-2020-14155",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1820000"
-    }
+    },
+    "Operator": "AND"
   }
 }

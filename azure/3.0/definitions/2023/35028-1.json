@@ -20,10 +20,10 @@
     "Description": "CVE-2023-44487 affecting package nginx for versions less than 1.25.4-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nginx is earlier than 1.25.4-1, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35028000"
-    }
+    },
+    "Operator": "AND"
   }
 }

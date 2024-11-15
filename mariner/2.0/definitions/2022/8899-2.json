@@ -20,10 +20,10 @@
     "Description": "CVE-2022-0711 affecting package haproxy for versions less than 2.4.13-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package haproxy is earlier than 2.4.13-1, affected by CVE-2022-0711",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8899000"
-    }
+    },
+    "Operator": "AND"
   }
 }

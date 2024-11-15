@@ -20,10 +20,10 @@
     "Description": "CVE-2014-8141 affecting package unzip for versions less than 6.0-20. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package unzip is earlier than 6.0-20, affected by CVE-2014-8141",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35333000"
-    }
+    },
+    "Operator": "AND"
   }
 }

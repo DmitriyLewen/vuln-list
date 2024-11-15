@@ -20,10 +20,10 @@
     "Description": "CVE-2021-23214 affecting package postgresql 12.8-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package postgresql is earlier than 12.7-2, affected by CVE-2021-23214",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8955000"
-    }
+    },
+    "Operator": "AND"
   }
 }

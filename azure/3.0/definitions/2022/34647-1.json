@@ -20,10 +20,10 @@
     "Description": "CVE-2022-4515 affecting package ctags for versions less than 6.1.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ctags is earlier than 6.1.0-1, affected by CVE-2022-4515",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34647000"
-    }
+    },
+    "Operator": "AND"
   }
 }

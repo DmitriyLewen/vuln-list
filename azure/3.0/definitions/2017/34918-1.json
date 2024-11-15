@@ -20,10 +20,10 @@
     "Description": "CVE-2017-3609 affecting package libdb for versions less than 5.3.28-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libdb is earlier than 5.3.28-7, affected by CVE-2017-3609",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34918000"
-    }
+    },
+    "Operator": "AND"
   }
 }

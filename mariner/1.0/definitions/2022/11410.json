@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3697 affecting package ansible 2.9.27-2. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ansible is installed with version 2.9.27-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11410000"
-    }
+    },
+    "Operator": "AND"
   }
 }

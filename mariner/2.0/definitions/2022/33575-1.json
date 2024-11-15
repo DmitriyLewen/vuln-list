@@ -20,10 +20,10 @@
     "Description": "CVE-2022-32149 affecting package containerized-data-importer for versions less than 1.55.0-21. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package containerized-data-importer is earlier than 1.55.0-21, affected by CVE-2022-32149",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33575000"
-    }
+    },
+    "Operator": "AND"
   }
 }

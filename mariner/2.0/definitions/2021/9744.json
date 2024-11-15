@@ -19,10 +19,10 @@
     "Description": "CVE-2021-3611 affecting package qemu 6.2.0-20. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qemu is installed with version 6.2.0-20 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9744000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-1941 affecting package protobuf for versions less than 25.3-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package protobuf is earlier than 25.3-1, affected by CVE-2022-1941",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35125000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2021-46023 affecting package rust 1.72.0-8. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rust is installed with version 1.72.0-8 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13686000"
-    }
+    },
+    "Operator": "AND"
   }
 }

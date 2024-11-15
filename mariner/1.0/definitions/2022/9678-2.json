@@ -20,10 +20,10 @@
     "Description": "CVE-2022-29155 affecting package openldap 2.4.57-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openldap is earlier than 2.4.57-3, affected by CVE-2022-29155",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9678000"
-    }
+    },
+    "Operator": "AND"
   }
 }

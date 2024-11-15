@@ -20,10 +20,10 @@
     "Description": "CVE-2023-23919 affecting package nodejs for versions less than 16.19.1-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 16.19.1-1, affected by CVE-2023-23919",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13684000"
-    }
+    },
+    "Operator": "AND"
   }
 }

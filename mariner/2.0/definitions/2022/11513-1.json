@@ -20,10 +20,10 @@
     "Description": "CVE-2022-27651 affecting package buildah for versions less than 1.18.0-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package buildah is earlier than 1.18.0-8, affected by CVE-2022-27651",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11513000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2020-15503 affecting package LibRaw for versions less than 0.19.5-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package LibRaw is earlier than 0.19.5-5, affected by CVE-2020-15503",
       "TestRef": "oval:com.microsoft.azurelinux:tst:44688000"
-    }
+    },
+    "Operator": "AND"
   }
 }

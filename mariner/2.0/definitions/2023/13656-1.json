@@ -20,10 +20,10 @@
     "Description": "CVE-2023-23914 affecting package mysql for versions less than 8.0.33-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mysql is earlier than 8.0.33-1, affected by CVE-2023-23914",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13656000"
-    }
+    },
+    "Operator": "AND"
   }
 }

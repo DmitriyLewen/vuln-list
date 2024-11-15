@@ -20,10 +20,10 @@
     "Description": "CVE-2021-20294 affecting package binutils 2.32-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package binutils is earlier than 2.36.1-1, affected by CVE-2021-20294",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4171000"
-    }
+    },
+    "Operator": "AND"
   }
 }

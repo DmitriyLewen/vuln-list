@@ -20,10 +20,10 @@
     "Description": "CVE-2024-49976 affecting package kernel for versions less than 6.6.57.1-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 6.6.57.1-2, affected by CVE-2024-49976",
       "TestRef": "oval:com.microsoft.azurelinux:tst:51649000"
-    }
+    },
+    "Operator": "AND"
   }
 }

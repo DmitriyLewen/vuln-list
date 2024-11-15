@@ -20,10 +20,10 @@
     "Description": "CVE-2019-20149 affecting package js-jquery for versions less than 3.5.0-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package js-jquery is earlier than 3.5.0-4, affected by CVE-2019-20149",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:47271000"
-    }
+    },
+    "Operator": "AND"
   }
 }

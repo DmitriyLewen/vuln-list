@@ -20,10 +20,10 @@
     "Description": "CVE-2019-3833 affecting package openwsman for versions less than 2.6.8-13. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openwsman is earlier than 2.6.8-13, affected by CVE-2019-3833",
       "TestRef": "oval:com.microsoft.azurelinux:tst:36970000"
-    }
+    },
+    "Operator": "AND"
   }
 }

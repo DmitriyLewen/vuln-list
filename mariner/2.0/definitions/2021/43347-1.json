@@ -20,10 +20,10 @@
     "Description": "CVE-2021-43565 affecting package cf-cli for versions less than 8.4.0-19. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cf-cli is earlier than 8.4.0-19, affected by CVE-2021-43565",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:43347000"
-    }
+    },
+    "Operator": "AND"
   }
 }

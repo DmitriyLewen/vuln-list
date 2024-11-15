@@ -20,10 +20,10 @@
     "Description": "CVE-2023-4156 affecting package gawk for versions less than 5.1.1-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package gawk is earlier than 5.1.1-1, affected by CVE-2023-4156",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:30045000"
-    }
+    },
+    "Operator": "AND"
   }
 }

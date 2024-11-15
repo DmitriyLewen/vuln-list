@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21698 affecting package moby-buildx for versions less than 0.7.1-16. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-buildx is earlier than 0.7.1-16, affected by CVE-2022-21698",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33614000"
-    }
+    },
+    "Operator": "AND"
   }
 }

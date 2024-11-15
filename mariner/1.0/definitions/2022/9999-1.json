@@ -20,10 +20,10 @@
     "Description": "CVE-2022-2206 affecting package vim 8.2.5154-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 8.2.5172-1, affected by CVE-2022-2206",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9999000"
-    }
+    },
+    "Operator": "AND"
   }
 }

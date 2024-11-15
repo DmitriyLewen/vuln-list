@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6232 affecting package tensorflow for versions less than 2.16.1-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-6232",
       "TestRef": "oval:com.microsoft.azurelinux:tst:48740000"
-    }
+    },
+    "Operator": "AND"
   }
 }

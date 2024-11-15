@@ -20,10 +20,10 @@
     "Description": "CVE-2024-28110 affecting package telegraf for versions less than 1.28.5-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package telegraf is earlier than 1.28.5-5, affected by CVE-2024-28110",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35761000"
-    }
+    },
+    "Operator": "AND"
   }
 }

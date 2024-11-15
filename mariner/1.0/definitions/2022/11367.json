@@ -19,10 +19,10 @@
     "Description": "CVE-2022-44638 affecting package pixman 0.40.0-3. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package pixman is installed with version 0.40.0-3 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11367000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2022-2961 affecting package kernel 5.15.167.1-2. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is installed with version 5.15.167.1-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10761000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2023-44487 affecting package influxdb for versions less than 2.6.1-11. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package influxdb is earlier than 2.6.1-11, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31312000"
-    }
+    },
+    "Operator": "AND"
   }
 }

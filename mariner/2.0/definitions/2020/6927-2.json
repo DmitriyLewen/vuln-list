@@ -20,10 +20,10 @@
     "Description": "CVE-2020-24332 affecting package trousers for versions less than 0.3.14-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package trousers is earlier than 0.3.14-7, affected by CVE-2020-24332",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6927000"
-    }
+    },
+    "Operator": "AND"
   }
 }

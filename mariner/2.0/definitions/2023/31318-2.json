@@ -20,10 +20,10 @@
     "Description": "CVE-2023-44487 affecting package kubevirt for versions less than 0.59.0-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubevirt is earlier than 0.59.0-9, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31318000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2016-9296 affecting package p7zip for versions less than 16.02-23. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package p7zip is earlier than 16.02-23, affected by CVE-2016-9296",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35091000"
-    }
+    },
+    "Operator": "AND"
   }
 }

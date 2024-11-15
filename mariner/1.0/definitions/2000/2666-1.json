@@ -20,10 +20,10 @@
     "Description": "CVE-2000-0803 affecting package groff 1.22.3-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package groff is earlier than 1.22.3-5, affected by CVE-2000-0803",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2666000"
-    }
+    },
+    "Operator": "AND"
   }
 }

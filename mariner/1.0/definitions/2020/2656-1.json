@@ -20,10 +20,10 @@
     "Description": "CVE-2020-24342 affecting package lua 5.3.5-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package lua is earlier than 5.3.5-8, affected by CVE-2020-24342",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2656000"
-    }
+    },
+    "Operator": "AND"
   }
 }

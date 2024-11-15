@@ -20,10 +20,10 @@
     "Description": "CVE-2022-28066 affecting package libarchive for versions less than 3.6.1-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libarchive is earlier than 3.6.1-1, affected by CVE-2022-28066",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9671000"
-    }
+    },
+    "Operator": "AND"
   }
 }

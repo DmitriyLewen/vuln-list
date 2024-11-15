@@ -20,10 +20,10 @@
     "Description": "CVE-2024-2004 affecting package cmake for versions less than 3.30.3-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cmake is earlier than 3.30.3-2, affected by CVE-2024-2004",
       "TestRef": "oval:com.microsoft.azurelinux:tst:37087000"
-    }
+    },
+    "Operator": "AND"
   }
 }

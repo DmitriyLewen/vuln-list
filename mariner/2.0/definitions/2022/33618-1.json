@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21698 affecting package moby-cli for versions less than 20.10.27-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-cli is earlier than 20.10.27-5, affected by CVE-2022-21698",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33618000"
-    }
+    },
+    "Operator": "AND"
   }
 }

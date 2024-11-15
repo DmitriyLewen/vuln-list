@@ -20,10 +20,10 @@
     "Description": "CVE-2019-10906 affecting package nodejs for versions less than 20.14.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 20.14.0-1, affected by CVE-2019-10906",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41949000"
-    }
+    },
+    "Operator": "AND"
   }
 }

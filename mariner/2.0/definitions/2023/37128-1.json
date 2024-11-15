@@ -20,10 +20,10 @@
     "Description": "CVE-2023-47100 affecting package perl for versions less than 5.34.1-489. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package perl is earlier than 5.34.1-489, affected by CVE-2023-47100",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:37128000"
-    }
+    },
+    "Operator": "AND"
   }
 }

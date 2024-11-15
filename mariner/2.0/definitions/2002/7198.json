@@ -19,10 +19,10 @@
     "Description": "CVE-2002-0130 affecting package efax 0.9a-34. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package efax is installed with version 0.9a-34 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7198000"
-    }
+    },
+    "Operator": "AND"
   }
 }

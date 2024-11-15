@@ -20,10 +20,10 @@
     "Description": "CVE-2022-29458 affecting package ncurses 6.2-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ncurses is earlier than 6.3-2, affected by CVE-2022-29458",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9504000"
-    }
+    },
+    "Operator": "AND"
   }
 }

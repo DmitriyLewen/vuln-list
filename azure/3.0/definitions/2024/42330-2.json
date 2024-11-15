@@ -20,10 +20,10 @@
     "Description": "CVE-2024-3727 affecting package ig for versions less than 0.29.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ig is earlier than 0.29.0-1, affected by CVE-2024-3727",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42330000"
-    }
+    },
+    "Operator": "AND"
   }
 }

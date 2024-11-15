@@ -20,10 +20,10 @@
     "Description": "CVE-2023-23455 affecting package kernel for versions less than 5.15.87.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.15.87.1-1, affected by CVE-2023-23455",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13007000"
-    }
+    },
+    "Operator": "AND"
   }
 }

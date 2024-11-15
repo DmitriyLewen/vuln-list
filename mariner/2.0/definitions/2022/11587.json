@@ -19,10 +19,10 @@
     "Description": "CVE-2022-4123 affecting package podman 4.1.1-22. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package podman is installed with version 4.1.1-22 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11587000"
-    }
+    },
+    "Operator": "AND"
   }
 }

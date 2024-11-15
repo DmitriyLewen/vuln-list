@@ -20,10 +20,10 @@
     "Description": "CVE-2023-45853 affecting package boost for versions less than 1.76.0-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package boost is earlier than 1.76.0-4, affected by CVE-2023-45853",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31294000"
-    }
+    },
+    "Operator": "AND"
   }
 }

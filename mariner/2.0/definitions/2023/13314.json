@@ -19,10 +19,10 @@
     "Description": "CVE-2023-0215 affecting package shim-unsigned-aarch64 15-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package shim-unsigned-aarch64 is installed with version 15-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13314000"
-    }
+    },
+    "Operator": "AND"
   }
 }

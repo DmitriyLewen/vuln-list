@@ -19,10 +19,10 @@
     "Description": "CVE-2023-22466 affecting package netavark 1.0.3-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package netavark is installed with version 1.0.3-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12936000"
-    }
+    },
+    "Operator": "AND"
   }
 }

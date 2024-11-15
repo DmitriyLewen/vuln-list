@@ -20,10 +20,10 @@
     "Description": "CVE-2022-3775 affecting package grub2 2.06~rc1-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package grub2 is earlier than 2.06~rc1-10, affected by CVE-2022-3775",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12080000"
-    }
+    },
+    "Operator": "AND"
   }
 }

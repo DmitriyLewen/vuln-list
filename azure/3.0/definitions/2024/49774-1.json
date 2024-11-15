@@ -20,10 +20,10 @@
     "Description": "CVE-2024-31852 affecting package libcxx for versions less than 18.1.2-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libcxx is earlier than 18.1.2-3, affected by CVE-2024-31852",
       "TestRef": "oval:com.microsoft.azurelinux:tst:49774000"
-    }
+    },
+    "Operator": "AND"
   }
 }

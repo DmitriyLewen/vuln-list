@@ -20,10 +20,10 @@
     "Description": "CVE-2024-35255 affecting package telegraf for versions less than 1.29.4-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package telegraf is earlier than 1.29.4-6, affected by CVE-2024-35255",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42664000"
-    }
+    },
+    "Operator": "AND"
   }
 }

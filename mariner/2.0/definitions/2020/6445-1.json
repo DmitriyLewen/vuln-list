@@ -20,10 +20,10 @@
     "Description": "CVE-2020-24659 affecting package gnutls for versions less than 3.6.14-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package gnutls is earlier than 3.6.14-5, affected by CVE-2020-24659",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6445000"
-    }
+    },
+    "Operator": "AND"
   }
 }

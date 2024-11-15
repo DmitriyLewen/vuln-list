@@ -20,10 +20,10 @@
     "Description": "CVE-2022-3094 affecting package bind for versions less than 9.16.37-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bind is earlier than 9.16.37-2, affected by CVE-2022-3094",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13204000"
-    }
+    },
+    "Operator": "AND"
   }
 }

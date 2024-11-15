@@ -19,10 +19,10 @@
     "Description": "CVE-2023-5678 affecting package openssl for versions less than 1.1.1k-28. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssl is earlier than 1.1.1k-28, affected by CVE-2023-5678",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31880000"
-    }
+    },
+    "Operator": "AND"
   }
 }

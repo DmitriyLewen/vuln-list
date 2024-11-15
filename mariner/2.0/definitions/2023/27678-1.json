@@ -19,10 +19,10 @@
     "Description": "CVE-2023-3618 affecting package libtiff for versions less than 4.5.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libtiff is earlier than 4.5.1-1, affected by CVE-2023-3618",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27678000"
-    }
+    },
+    "Operator": "AND"
   }
 }

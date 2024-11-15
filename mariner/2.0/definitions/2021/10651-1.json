@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3639 affecting package mod_auth_mellon for versions less than 0.16.0-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mod_auth_mellon is earlier than 0.16.0-4, affected by CVE-2021-3639",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10651000"
-    }
+    },
+    "Operator": "AND"
   }
 }

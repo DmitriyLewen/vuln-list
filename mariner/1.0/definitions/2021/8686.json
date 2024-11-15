@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3560 affecting package polkit 0.116-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package polkit is earlier than 0.116-6, affected by CVE-2021-3560",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8686000"
-    }
+    },
+    "Operator": "AND"
   }
 }

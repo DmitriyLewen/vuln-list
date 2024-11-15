@@ -20,10 +20,10 @@
     "Description": "CVE-2022-45063 affecting package xterm for versions less than 380-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package xterm is earlier than 380-1, affected by CVE-2022-45063",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11429000"
-    }
+    },
+    "Operator": "AND"
   }
 }

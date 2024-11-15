@@ -20,10 +20,10 @@
     "Description": "CVE-2020-14147 affecting package redis 5.0.5-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 5.0.5-4, affected by CVE-2020-14147",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1878000"
-    }
+    },
+    "Operator": "AND"
   }
 }

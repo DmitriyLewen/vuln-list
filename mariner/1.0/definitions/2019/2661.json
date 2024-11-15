@@ -20,10 +20,10 @@
     "Description": "CVE-2019-12735 affecting package vim 8.1.0388-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 8.1.0388-7, affected by CVE-2019-12735",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2661000"
-    }
+    },
+    "Operator": "AND"
   }
 }

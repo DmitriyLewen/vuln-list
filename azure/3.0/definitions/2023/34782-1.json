@@ -20,10 +20,10 @@
     "Description": "CVE-2023-32067 affecting package grpc for versions less than 1.62.0-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package grpc is earlier than 1.62.0-2, affected by CVE-2023-32067",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34782000"
-    }
+    },
+    "Operator": "AND"
   }
 }

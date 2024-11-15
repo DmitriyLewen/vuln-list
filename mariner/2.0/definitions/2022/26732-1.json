@@ -20,10 +20,10 @@
     "Description": "CVE-2022-41723 affecting package kubevirt for versions less than 0.59.0-15. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubevirt is earlier than 0.59.0-15, affected by CVE-2022-41723",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26732000"
-    }
+    },
+    "Operator": "AND"
   }
 }

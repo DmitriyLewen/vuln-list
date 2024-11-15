@@ -20,10 +20,10 @@
     "Description": "CVE-2021-32055 affecting package mutt for versions less than 2.0.5-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mutt is earlier than 2.0.5-4, affected by CVE-2021-32055",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7292000"
-    }
+    },
+    "Operator": "AND"
   }
 }

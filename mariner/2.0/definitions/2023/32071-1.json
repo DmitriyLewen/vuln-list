@@ -20,10 +20,10 @@
     "Description": "CVE-2023-41913 affecting package strongswan for versions less than 5.9.10-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package strongswan is earlier than 5.9.10-3, affected by CVE-2023-41913",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:32071000"
-    }
+    },
+    "Operator": "AND"
   }
 }

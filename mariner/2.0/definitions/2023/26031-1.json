@@ -20,10 +20,10 @@
     "Description": "CVE-2023-1668 affecting package openvswitch for versions less than 2.17.5-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openvswitch is earlier than 2.17.5-2, affected by CVE-2023-1668",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26031000"
-    }
+    },
+    "Operator": "AND"
   }
 }

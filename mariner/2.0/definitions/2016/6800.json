@@ -19,10 +19,10 @@
     "Description": "CVE-2016-2568 affecting package polkit 0.119-3. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package polkit is installed with version 0.119-3 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6800000"
-    }
+    },
+    "Operator": "AND"
   }
 }

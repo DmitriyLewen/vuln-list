@@ -20,10 +20,10 @@
     "Description": "CVE-2024-21626 affecting package moby-runc for versions less than 1.1.9-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-runc is earlier than 1.1.9-4, affected by CVE-2024-21626",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34087000"
-    }
+    },
+    "Operator": "AND"
   }
 }

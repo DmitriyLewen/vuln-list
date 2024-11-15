@@ -19,10 +19,10 @@
     "Description": "CVE-2019-20633 affecting package patch 2.7.6-8. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package patch is installed with version 2.7.6-8 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6791000"
-    }
+    },
+    "Operator": "AND"
   }
 }

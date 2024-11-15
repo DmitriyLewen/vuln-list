@@ -20,10 +20,10 @@
     "Description": "CVE-2024-47554 affecting package apache-commons-io for versions less than 2.14.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package apache-commons-io is earlier than 2.14.0-1, affected by CVE-2024-47554",
       "TestRef": "oval:com.microsoft.azurelinux:tst:50031000"
-    }
+    },
+    "Operator": "AND"
   }
 }

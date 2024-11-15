@@ -19,10 +19,10 @@
     "Description": "CVE-2012-3381 affecting package sblim-sfcb 1.4.9-20. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sblim-sfcb is installed with version 1.4.9-20 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7355000"
-    }
+    },
+    "Operator": "AND"
   }
 }

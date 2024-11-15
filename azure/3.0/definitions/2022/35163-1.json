@@ -20,10 +20,10 @@
     "Description": "CVE-2022-3872 affecting package qemu for versions less than 6.2.0-18. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qemu is earlier than 6.2.0-18, affected by CVE-2022-3872",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35163000"
-    }
+    },
+    "Operator": "AND"
   }
 }

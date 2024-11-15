@@ -20,10 +20,10 @@
     "Description": "CVE-2020-36228 affecting package openldap 2.4.50-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openldap is earlier than 2.4.57-2, affected by CVE-2020-36228",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3829000"
-    }
+    },
+    "Operator": "AND"
   }
 }

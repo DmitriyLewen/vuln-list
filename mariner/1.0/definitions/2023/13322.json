@@ -19,10 +19,10 @@
     "Description": "CVE-2023-25193 affecting package mozjs60 60.9.0-13. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mozjs60 is installed with version 60.9.0-13 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13322000"
-    }
+    },
+    "Operator": "AND"
   }
 }

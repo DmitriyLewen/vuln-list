@@ -20,10 +20,10 @@
     "Description": "CVE-2022-25883 affecting package nodejs for versions less than 16.20.1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 16.20.1-2, affected by CVE-2022-25883",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27207000"
-    }
+    },
+    "Operator": "AND"
   }
 }

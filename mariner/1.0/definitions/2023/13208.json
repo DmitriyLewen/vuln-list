@@ -19,10 +19,10 @@
     "Description": "CVE-2023-25136 affecting package openssh 8.9p1-3. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssh is installed with version 8.9p1-3 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13208000"
-    }
+    },
+    "Operator": "AND"
   }
 }

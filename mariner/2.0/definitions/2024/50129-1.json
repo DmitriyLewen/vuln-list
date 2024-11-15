@@ -20,10 +20,10 @@
     "Description": "CVE-2024-31449 affecting package redis for versions less than 6.2.16-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 6.2.16-1, affected by CVE-2024-31449",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:50129000"
-    }
+    },
+    "Operator": "AND"
   }
 }

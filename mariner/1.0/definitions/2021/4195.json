@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3537 affecting package libxml2 2.9.10-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libxml2 is earlier than 2.9.12-1, affected by CVE-2021-3537",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4195000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-39537 affecting package ncurses for versions less than 6.2-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ncurses is earlier than 6.2-6, affected by CVE-2021-39537",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6740000"
-    }
+    },
+    "Operator": "AND"
   }
 }

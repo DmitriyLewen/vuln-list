@@ -20,10 +20,10 @@
     "Description": "CVE-2015-4645 affecting package squashfs-tools for versions less than 4.5-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package squashfs-tools is earlier than 4.5-1, affected by CVE-2015-4645",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6884000"
-    }
+    },
+    "Operator": "AND"
   }
 }

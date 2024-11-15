@@ -20,10 +20,10 @@
     "Description": "CVE-2020-36318 affecting package rust 1.47.0-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rust is earlier than 1.59.0-1, affected by CVE-2020-36318",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4150000"
-    }
+    },
+    "Operator": "AND"
   }
 }

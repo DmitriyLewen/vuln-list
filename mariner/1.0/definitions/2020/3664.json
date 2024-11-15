@@ -20,10 +20,10 @@
     "Description": "CVE-2020-8169 affecting package curl 7.68.0-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package curl is earlier than 7.76.0-5, affected by CVE-2020-8169",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3664000"
-    }
+    },
+    "Operator": "AND"
   }
 }

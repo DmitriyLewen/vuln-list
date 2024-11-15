@@ -20,10 +20,10 @@
     "Description": "CVE-2022-41722 affecting package msft-golang for versions less than 1.19.8-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package msft-golang is earlier than 1.19.8-1, affected by CVE-2022-41722",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13738000"
-    }
+    },
+    "Operator": "AND"
   }
 }

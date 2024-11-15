@@ -20,10 +20,10 @@
     "Description": "CVE-2023-3978 affecting package vitess for versions less than 17.0.7-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vitess is earlier than 17.0.7-1, affected by CVE-2023-3978",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27818000"
-    }
+    },
+    "Operator": "AND"
   }
 }

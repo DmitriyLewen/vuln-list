@@ -20,10 +20,10 @@
     "Description": "CVE-2022-42012 affecting package dbus 1.13.6-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package dbus is earlier than 1.13.6-6, affected by CVE-2022-42012",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11090000"
-    }
+    },
+    "Operator": "AND"
   }
 }

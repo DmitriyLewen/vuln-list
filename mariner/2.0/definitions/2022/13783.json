@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3162 affecting package rook 1.6.2-22. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rook is installed with version 1.6.2-22 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13783000"
-    }
+    },
+    "Operator": "AND"
   }
 }

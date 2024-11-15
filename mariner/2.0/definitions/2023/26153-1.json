@@ -20,10 +20,10 @@
     "Description": "CVE-2023-26917 affecting package libyang for versions less than 2.1.55-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libyang is earlier than 2.1.55-1, affected by CVE-2023-26917",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26153000"
-    }
+    },
+    "Operator": "AND"
   }
 }

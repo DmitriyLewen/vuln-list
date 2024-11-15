@@ -19,10 +19,10 @@
     "Description": "CVE-2018-25032 affecting package python2 for versions less than 2.7.18-13. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python2 is earlier than 2.7.18-13, affected by CVE-2018-25032",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26116000"
-    }
+    },
+    "Operator": "AND"
   }
 }

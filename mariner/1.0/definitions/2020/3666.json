@@ -20,10 +20,10 @@
     "Description": "CVE-2020-8286 affecting package curl 7.68.0-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package curl is earlier than 7.68.0-3, affected by CVE-2020-8286",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3666000"
-    }
+    },
+    "Operator": "AND"
   }
 }

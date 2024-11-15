@@ -20,10 +20,10 @@
     "Description": "CVE-2020-29651 affecting package python-py 1.6.0-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-py is earlier than 1.10.0-1, affected by CVE-2020-29651",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3693000"
-    }
+    },
+    "Operator": "AND"
   }
 }

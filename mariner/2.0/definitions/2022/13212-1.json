@@ -20,10 +20,10 @@
     "Description": "CVE-2022-25147 affecting package apr-util for versions less than 1.6.3-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package apr-util is earlier than 1.6.3-1, affected by CVE-2022-25147",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13212000"
-    }
+    },
+    "Operator": "AND"
   }
 }

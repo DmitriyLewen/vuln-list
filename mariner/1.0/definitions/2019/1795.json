@@ -20,10 +20,10 @@
     "Description": "CVE-2019-20386 affecting package systemd 239-44. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd is earlier than 239-34, affected by CVE-2019-20386",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1795000"
-    }
+    },
+    "Operator": "AND"
   }
 }

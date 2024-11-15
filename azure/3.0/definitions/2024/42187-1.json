@@ -20,10 +20,10 @@
     "Description": "CVE-2024-35992 affecting package kernel for versions less than 6.6.35.1-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 6.6.35.1-4, affected by CVE-2024-35992",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42187000"
-    }
+    },
+    "Operator": "AND"
   }
 }

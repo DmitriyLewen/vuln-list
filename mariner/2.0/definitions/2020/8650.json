@@ -19,10 +19,10 @@
     "Description": "CVE-2020-25717 affecting package samba 4.12.5-6. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package samba is installed with version 4.12.5-6 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8650000"
-    }
+    },
+    "Operator": "AND"
   }
 }

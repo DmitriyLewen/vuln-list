@@ -20,10 +20,10 @@
     "Description": "CVE-2022-39379 affecting package rubygem-fluentd for versions less than 1.14.6-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rubygem-fluentd is earlier than 1.14.6-2, affected by CVE-2022-39379",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11396000"
-    }
+    },
+    "Operator": "AND"
   }
 }

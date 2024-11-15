@@ -20,10 +20,10 @@
     "Description": "CVE-2023-22114 affecting package mysql for versions less than 8.0.35-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mysql is earlier than 8.0.35-1, affected by CVE-2023-22114",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31574000"
-    }
+    },
+    "Operator": "AND"
   }
 }

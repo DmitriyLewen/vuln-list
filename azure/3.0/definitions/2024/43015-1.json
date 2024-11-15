@@ -19,10 +19,10 @@
     "Description": "CVE-2024-29039 affecting package tpm2-tools for versions less than 5.5.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package tpm2-tools is earlier than 5.5.1-1, affected by CVE-2024-29039",
       "TestRef": "oval:com.microsoft.azurelinux:tst:43015000"
-    }
+    },
+    "Operator": "AND"
   }
 }

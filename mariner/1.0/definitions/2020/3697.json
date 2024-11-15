@@ -20,10 +20,10 @@
     "Description": "CVE-2020-8565 affecting package kubernetes 1.17.13-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kubernetes is earlier than 1.17.13-5, affected by CVE-2020-8565",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3697000"
-    }
+    },
+    "Operator": "AND"
   }
 }

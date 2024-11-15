@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24786 affecting package prometheus for versions less than 2.37.9-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package prometheus is earlier than 2.37.9-1, affected by CVE-2024-24786",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35593000"
-    }
+    },
+    "Operator": "AND"
   }
 }

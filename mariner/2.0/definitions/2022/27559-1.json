@@ -20,10 +20,10 @@
     "Description": "CVE-2022-28737 affecting package shim for versions less than 15.8-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package shim is earlier than 15.8-1, affected by CVE-2022-28737",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27559000"
-    }
+    },
+    "Operator": "AND"
   }
 }

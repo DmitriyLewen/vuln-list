@@ -19,10 +19,10 @@
     "Description": "CVE-2017-1000231 affecting package ldns 1.7.0-31. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ldns is installed with version 1.7.0-31 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7256000"
-    }
+    },
+    "Operator": "AND"
   }
 }

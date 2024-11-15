@@ -20,10 +20,10 @@
     "Description": "CVE-2022-2879 affecting package containerized-data-importer for versions less than 1.57.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package containerized-data-importer is earlier than 1.57.0-3, affected by CVE-2022-2879",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41901000"
-    }
+    },
+    "Operator": "AND"
   }
 }

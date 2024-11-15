@@ -20,10 +20,10 @@
     "Description": "CVE-2021-35937 affecting package rpm for versions less than 4.18.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rpm is earlier than 4.18.0-1, affected by CVE-2021-35937",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10766000"
-    }
+    },
+    "Operator": "AND"
   }
 }

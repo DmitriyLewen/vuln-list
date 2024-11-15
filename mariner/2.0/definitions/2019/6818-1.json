@@ -20,10 +20,10 @@
     "Description": "CVE-2019-12855 affecting package python-twisted for versions less than 22.2.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-twisted is earlier than 22.2.0-1, affected by CVE-2019-12855",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6818000"
-    }
+    },
+    "Operator": "AND"
   }
 }

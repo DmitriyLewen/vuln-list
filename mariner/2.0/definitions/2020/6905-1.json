@@ -20,10 +20,10 @@
     "Description": "CVE-2020-8037 affecting package tcpdump for versions less than 4.9.3-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package tcpdump is earlier than 4.9.3-3, affected by CVE-2020-8037",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6905000"
-    }
+    },
+    "Operator": "AND"
   }
 }

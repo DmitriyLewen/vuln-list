@@ -19,10 +19,10 @@
     "Description": "CVE-2021-28543 affecting package varnish-modules 0.16.0-4. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package varnish-modules is installed with version 0.16.0-4 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7398000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2016-3697 affecting package moby-buildx 0.4.1-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-buildx is earlier than 0.4.1+azure-3, affected by CVE-2016-3697",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4419000"
-    }
+    },
+    "Operator": "AND"
   }
 }

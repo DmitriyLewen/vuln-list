@@ -20,10 +20,10 @@
     "Description": "CVE-2019-12900 affecting package bzip2 1.0.6-15. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bzip2 is earlier than 1.0.6-15, affected by CVE-2019-12900",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1947000"
-    }
+    },
+    "Operator": "AND"
   }
 }

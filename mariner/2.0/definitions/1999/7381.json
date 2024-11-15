@@ -19,10 +19,10 @@
     "Description": "CVE-1999-1090 affecting package telnet 0.17-81. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package telnet is installed with version 0.17-81 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7381000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2023-25173 affecting package k3s 1.24.12-2. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package k3s is installed with version 1.24.12-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13570000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-2650 affecting package openssl for versions less than 1.1.1k-25. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssl is earlier than 1.1.1k-25, affected by CVE-2023-2650",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26984000"
-    }
+    },
+    "Operator": "AND"
   }
 }

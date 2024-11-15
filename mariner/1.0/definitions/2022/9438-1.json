@@ -20,10 +20,10 @@
     "Description": "CVE-2022-27456 affecting package mariadb 10.3.34-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mariadb is earlier than 10.3.35-1, affected by CVE-2022-27456",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9438000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-44487 affecting package packer for versions less than 1.8.1-14. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package packer is earlier than 1.8.1-14, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35097000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-7347 affecting package nginx for versions less than 1.25.4-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nginx is earlier than 1.25.4-2, affected by CVE-2024-7347",
       "TestRef": "oval:com.microsoft.azurelinux:tst:47789000"
-    }
+    },
+    "Operator": "AND"
   }
 }

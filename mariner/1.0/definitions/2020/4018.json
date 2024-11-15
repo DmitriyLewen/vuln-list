@@ -20,10 +20,10 @@
     "Description": "CVE-2020-35492 affecting package cairo 1.16.0-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cairo is earlier than 1.17.4-1, affected by CVE-2020-35492",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4018000"
-    }
+    },
+    "Operator": "AND"
   }
 }

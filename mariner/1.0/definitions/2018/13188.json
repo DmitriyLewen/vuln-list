@@ -19,10 +19,10 @@
     "Description": "CVE-2018-25078 affecting package man-db 2.8.4-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package man-db is installed with version 2.8.4-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13188000"
-    }
+    },
+    "Operator": "AND"
   }
 }

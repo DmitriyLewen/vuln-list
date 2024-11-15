@@ -20,10 +20,10 @@
     "Description": "CVE-2019-9755 affecting package ntfs-3g for versions less than 2017.3.23-15. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ntfs-3g is earlier than 2017.3.23-15, affected by CVE-2019-9755",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7293000"
-    }
+    },
+    "Operator": "AND"
   }
 }

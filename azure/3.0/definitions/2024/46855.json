@@ -20,10 +20,10 @@
     "Description": "CVE-2024-39474 affecting package kernel for versions less than 6.6.35.1-5. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 6.6.35.1-5, affected by CVE-2024-39474",
       "TestRef": "oval:com.microsoft.azurelinux:tst:46855000"
-    }
+    },
+    "Operator": "AND"
   }
 }

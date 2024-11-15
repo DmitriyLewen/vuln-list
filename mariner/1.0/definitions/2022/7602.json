@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21323 affecting package mysql 8.0.27-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mysql is earlier than 8.0.28-1, affected by CVE-2022-21323",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7602000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-28085 affecting package util-linux for versions less than 2.39.2-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package util-linux is earlier than 2.39.2-2, affected by CVE-2024-28085",
       "TestRef": "oval:com.microsoft.azurelinux:tst:37134000"
-    }
+    },
+    "Operator": "AND"
   }
 }

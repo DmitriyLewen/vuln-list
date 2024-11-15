@@ -20,10 +20,10 @@
     "Description": "CVE-2023-32324 affecting package cups for versions less than 2.4.10-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cups is earlier than 2.4.10-1, affected by CVE-2023-32324",
       "TestRef": "oval:com.microsoft.azurelinux:tst:37098000"
-    }
+    },
+    "Operator": "AND"
   }
 }

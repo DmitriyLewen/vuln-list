@@ -20,10 +20,10 @@
     "Description": "CVE-2023-22458 affecting package redis 6.2.7-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package redis is earlier than 6.2.7-3, affected by CVE-2023-22458",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13042000"
-    }
+    },
+    "Operator": "AND"
   }
 }

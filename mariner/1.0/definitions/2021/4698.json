@@ -20,10 +20,10 @@
     "Description": "CVE-2021-24032 affecting package zstd 1.4.4-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package zstd is earlier than 1.4.9-1, affected by CVE-2021-24032",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4698000"
-    }
+    },
+    "Operator": "AND"
   }
 }

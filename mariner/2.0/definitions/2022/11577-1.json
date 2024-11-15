@@ -20,10 +20,10 @@
     "Description": "CVE-2022-43548 affecting package nodejs for versions less than 16.18.1-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 16.18.1-2, affected by CVE-2022-43548",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11577000"
-    }
+    },
+    "Operator": "AND"
   }
 }

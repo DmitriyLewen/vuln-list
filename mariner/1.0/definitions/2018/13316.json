@@ -19,10 +19,10 @@
     "Description": "CVE-2018-14040 affecting package boost 1.66.0-4. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package boost is installed with version 1.66.0-4 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13316000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-50387 affecting package bind for versions less than 9.20.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bind is earlier than 9.20.0-1, affected by CVE-2023-50387",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34559000"
-    }
+    },
+    "Operator": "AND"
   }
 }

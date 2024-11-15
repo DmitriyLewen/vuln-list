@@ -20,10 +20,10 @@
     "Description": "CVE-2021-42376 affecting package busybox 1.32.0-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package busybox is earlier than 1.34.1-1, affected by CVE-2021-42376",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6186000"
-    }
+    },
+    "Operator": "AND"
   }
 }

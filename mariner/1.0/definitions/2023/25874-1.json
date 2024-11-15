@@ -20,10 +20,10 @@
     "Description": "CVE-2023-28448 affecting package cloud-hypervisor 22.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cloud-hypervisor is earlier than 22.0-2, affected by CVE-2023-28448",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:25874000"
-    }
+    },
+    "Operator": "AND"
   }
 }

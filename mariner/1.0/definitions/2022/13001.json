@@ -19,10 +19,10 @@
     "Description": "CVE-2022-3515 affecting package gnupg2 2.2.20-4. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package gnupg2 is installed with version 2.2.20-4 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13001000"
-    }
+    },
+    "Operator": "AND"
   }
 }

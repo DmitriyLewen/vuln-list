@@ -20,10 +20,10 @@
     "Description": "CVE-2023-45288 affecting package helm for versions less than 3.14.2-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package helm is earlier than 3.14.2-2, affected by CVE-2023-45288",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:39268000"
-    }
+    },
+    "Operator": "AND"
   }
 }

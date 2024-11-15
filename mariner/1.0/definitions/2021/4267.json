@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3527 affecting package qemu-kvm 4.2.0-48. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qemu-kvm is earlier than 4.2.0-33, affected by CVE-2021-3527",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4267000"
-    }
+    },
+    "Operator": "AND"
   }
 }

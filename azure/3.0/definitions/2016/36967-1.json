@@ -20,10 +20,10 @@
     "Description": "CVE-2016-7567 affecting package openslp for versions less than 2.0.0-26. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openslp is earlier than 2.0.0-26, affected by CVE-2016-7567",
       "TestRef": "oval:com.microsoft.azurelinux:tst:36967000"
-    }
+    },
+    "Operator": "AND"
   }
 }

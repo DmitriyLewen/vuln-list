@@ -20,10 +20,10 @@
     "Description": "CVE-2024-23851 affecting package kernel for versions less than 5.15.153.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.15.153.1-1, affected by CVE-2024-23851",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33965000"
-    }
+    },
+    "Operator": "AND"
   }
 }

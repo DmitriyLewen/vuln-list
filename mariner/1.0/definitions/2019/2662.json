@@ -20,10 +20,10 @@
     "Description": "CVE-2019-20807 affecting package vim 8.1.0388-7. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 8.1.1667-1, affected by CVE-2019-20807",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2662000"
-    }
+    },
+    "Operator": "AND"
   }
 }

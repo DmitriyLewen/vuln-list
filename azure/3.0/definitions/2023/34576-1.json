@@ -20,10 +20,10 @@
     "Description": "CVE-2023-42365 affecting package busybox for versions less than 1.36.1-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package busybox is earlier than 1.36.1-7, affected by CVE-2023-42365",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34576000"
-    }
+    },
+    "Operator": "AND"
   }
 }

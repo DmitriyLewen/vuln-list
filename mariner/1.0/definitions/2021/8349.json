@@ -19,10 +19,10 @@
     "Description": "CVE-2021-22570 affecting package protobuf 3.14.0-1. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package protobuf is installed with version 3.14.0-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8349000"
-    }
+    },
+    "Operator": "AND"
   }
 }

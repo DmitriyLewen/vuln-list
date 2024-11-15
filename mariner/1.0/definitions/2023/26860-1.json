@@ -20,10 +20,10 @@
     "Description": "CVE-2023-32763 affecting package qt5-qtbase 5.12.11-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qt5-qtbase is earlier than 5.12.11-7, affected by CVE-2023-32763",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26860000"
-    }
+    },
+    "Operator": "AND"
   }
 }

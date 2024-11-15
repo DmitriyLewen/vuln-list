@@ -20,10 +20,10 @@
     "Description": "CVE-2022-2553 affecting package booth for versions less than 1.0-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package booth is earlier than 1.0-8, affected by CVE-2022-2553",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:25645000"
-    }
+    },
+    "Operator": "AND"
   }
 }

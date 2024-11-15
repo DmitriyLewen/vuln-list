@@ -20,10 +20,10 @@
     "Description": "CVE-2022-40898 affecting package python-wheel for versions less than 0.33.6-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-wheel is earlier than 0.33.6-8, affected by CVE-2022-40898",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12098000"
-    }
+    },
+    "Operator": "AND"
   }
 }

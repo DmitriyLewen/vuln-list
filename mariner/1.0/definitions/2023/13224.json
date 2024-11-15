@@ -19,10 +19,10 @@
     "Description": "CVE-2023-25193 affecting package qt5-qtbase 5.12.11-7. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qt5-qtbase is installed with version 5.12.11-7 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13224000"
-    }
+    },
+    "Operator": "AND"
   }
 }

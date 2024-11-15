@@ -20,10 +20,10 @@
     "Description": "CVE-2022-42010 affecting package dbus for versions less than 1.15.2-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package dbus is earlier than 1.15.2-2, affected by CVE-2022-42010",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11091000"
-    }
+    },
+    "Operator": "AND"
   }
 }

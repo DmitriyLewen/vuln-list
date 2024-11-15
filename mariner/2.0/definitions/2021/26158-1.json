@@ -20,10 +20,10 @@
     "Description": "CVE-2021-45985 affecting package ntopng for versions less than 5.2.1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ntopng is earlier than 5.2.1-2, affected by CVE-2021-45985",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26158000"
-    }
+    },
+    "Operator": "AND"
   }
 }

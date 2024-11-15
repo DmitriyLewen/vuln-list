@@ -20,10 +20,10 @@
     "Description": "CVE-2021-27218 affecting package glib 2.58.0-10. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package glib is earlier than 2.58.0-8, affected by CVE-2021-27218",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3893000"
-    }
+    },
+    "Operator": "AND"
   }
 }

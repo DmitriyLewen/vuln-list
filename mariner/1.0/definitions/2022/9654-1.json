@@ -20,10 +20,10 @@
     "Description": "CVE-2022-1292 affecting package openssl 1.1.1k-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssl is earlier than 1.1.1k-10, affected by CVE-2022-1292",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9654000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-21646 affecting package azure-iot-sdk-c for versions less than 2024.03.04-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package azure-iot-sdk-c is earlier than 2024.03.04-1, affected by CVE-2024-21646",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34555000"
-    }
+    },
+    "Operator": "AND"
   }
 }

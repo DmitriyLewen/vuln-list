@@ -20,10 +20,10 @@
     "Description": "CVE-2021-1404 affecting package clamav 0.103.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package clamav is earlier than 0.103.2-1, affected by CVE-2021-1404",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4077000"
-    }
+    },
+    "Operator": "AND"
   }
 }

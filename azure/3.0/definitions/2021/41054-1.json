@@ -19,10 +19,10 @@
     "Description": "CVE-2021-42374 affecting package busybox for versions less than 1.35.1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package busybox is earlier than 1.35.1-1, affected by CVE-2021-42374",
       "TestRef": "oval:com.microsoft.azurelinux:tst:41054000"
-    }
+    },
+    "Operator": "AND"
   }
 }

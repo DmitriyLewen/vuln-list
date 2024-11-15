@@ -19,10 +19,10 @@
     "Description": "CVE-2019-18368 affecting package toolbox 0.0.18-9. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package toolbox is installed with version 0.0.18-9 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7395000"
-    }
+    },
+    "Operator": "AND"
   }
 }

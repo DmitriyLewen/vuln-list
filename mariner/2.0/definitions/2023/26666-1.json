@@ -20,10 +20,10 @@
     "Description": "CVE-2023-32082 affecting package etcd for versions less than 3.5.3-10. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package etcd is earlier than 3.5.3-10, affected by CVE-2023-32082",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26666000"
-    }
+    },
+    "Operator": "AND"
   }
 }

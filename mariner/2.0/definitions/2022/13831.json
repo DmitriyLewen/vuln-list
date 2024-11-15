@@ -19,10 +19,10 @@
     "Description": "CVE-2022-4904 affecting package rubygem-mini_portile2 2.8.0-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rubygem-mini_portile2 is installed with version 2.8.0-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13831000"
-    }
+    },
+    "Operator": "AND"
   }
 }

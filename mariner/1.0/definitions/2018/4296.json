@@ -20,10 +20,10 @@
     "Description": "CVE-2018-12116 affecting package nodejs 8.11.4-7. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nodejs is earlier than 14.17.2-1, affected by CVE-2018-12116",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4296000"
-    }
+    },
+    "Operator": "AND"
   }
 }

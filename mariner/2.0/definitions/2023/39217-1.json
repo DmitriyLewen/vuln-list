@@ -20,10 +20,10 @@
     "Description": "CVE-2023-45288 affecting package kata-containers-cc for versions less than 3.2.0.azl2-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kata-containers-cc is earlier than 3.2.0.azl2-1, affected by CVE-2023-45288",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:39217000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-41991 affecting package strongswan 5.7.2-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package strongswan is earlier than 5.7.2-4, affected by CVE-2021-41991",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6027000"
-    }
+    },
+    "Operator": "AND"
   }
 }

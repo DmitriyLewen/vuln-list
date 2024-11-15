@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6104 affecting package skopeo for versions less than 1.14.4-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package skopeo is earlier than 1.14.4-2, affected by CVE-2024-6104",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42877000"
-    }
+    },
+    "Operator": "AND"
   }
 }

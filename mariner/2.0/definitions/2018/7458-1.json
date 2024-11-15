@@ -20,10 +20,10 @@
     "Description": "CVE-2018-17828 affecting package zziplib for versions less than 0.13.69-8. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package zziplib is earlier than 0.13.69-8, affected by CVE-2018-17828",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7458000"
-    }
+    },
+    "Operator": "AND"
   }
 }

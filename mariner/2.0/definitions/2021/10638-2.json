@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3997 affecting package systemd for versions less than 250.3-21. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd is earlier than 250.3-21, affected by CVE-2021-3997",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10638000"
-    }
+    },
+    "Operator": "AND"
   }
 }

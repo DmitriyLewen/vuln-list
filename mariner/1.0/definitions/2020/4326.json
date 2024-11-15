@@ -20,10 +20,10 @@
     "Description": "CVE-2020-12403 affecting package nss 3.44-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nss is earlier than 3.44-6, affected by CVE-2020-12403",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4326000"
-    }
+    },
+    "Operator": "AND"
   }
 }

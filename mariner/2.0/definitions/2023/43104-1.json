@@ -19,10 +19,10 @@
     "Description": "CVE-2023-24531 affecting package msft-golang for versions less than 1.21.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package msft-golang is earlier than 1.21.0-1, affected by CVE-2023-24531",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:43104000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-32002 affecting package git for versions less than 2.45.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package git is earlier than 2.45.2-1, affected by CVE-2024-32002",
       "TestRef": "oval:com.microsoft.azurelinux:tst:43038000"
-    }
+    },
+    "Operator": "AND"
   }
 }

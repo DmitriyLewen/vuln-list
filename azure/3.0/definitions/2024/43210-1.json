@@ -20,10 +20,10 @@
     "Description": "CVE-2024-3651 affecting package python-pip for versions less than 24.0-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-pip is earlier than 24.0-2, affected by CVE-2024-3651",
       "TestRef": "oval:com.microsoft.azurelinux:tst:43210000"
-    }
+    },
+    "Operator": "AND"
   }
 }

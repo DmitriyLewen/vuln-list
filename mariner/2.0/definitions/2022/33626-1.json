@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21698 affecting package node-problem-detector for versions less than 0.8.10-19. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package node-problem-detector is earlier than 0.8.10-19, affected by CVE-2022-21698",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33626000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2020-36328 affecting package libwebp 1.0.0-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libwebp is earlier than 1.0.3-1, affected by CVE-2020-36328",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4212000"
-    }
+    },
+    "Operator": "AND"
   }
 }

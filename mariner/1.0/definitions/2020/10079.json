@@ -19,10 +19,10 @@
     "Description": "CVE-2020-25657 affecting package m2crypto 0.35.2-8. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package m2crypto is installed with version 0.35.2-8 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10079000"
-    }
+    },
+    "Operator": "AND"
   }
 }

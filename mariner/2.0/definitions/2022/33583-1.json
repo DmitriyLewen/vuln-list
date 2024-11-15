@@ -20,10 +20,10 @@
     "Description": "CVE-2022-32149 affecting package gh for versions less than 2.13.0-22. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package gh is earlier than 2.13.0-22, affected by CVE-2022-32149",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33583000"
-    }
+    },
+    "Operator": "AND"
   }
 }

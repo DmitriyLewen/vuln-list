@@ -20,10 +20,10 @@
     "Description": "CVE-2021-20271 affecting package rpm 4.14.2-11. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rpm is earlier than 4.14.2-11, affected by CVE-2021-20271",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4031000"
-    }
+    },
+    "Operator": "AND"
   }
 }

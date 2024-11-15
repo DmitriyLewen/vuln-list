@@ -20,10 +20,10 @@
     "Description": "CVE-2022-27405 affecting package freetype 2.11.1-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package freetype is earlier than 2.12.1-1, affected by CVE-2022-27405",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9612000"
-    }
+    },
+    "Operator": "AND"
   }
 }

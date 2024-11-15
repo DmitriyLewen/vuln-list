@@ -19,10 +19,10 @@
     "Description": "CVE-2022-43410 affecting package mercurial 5.4-2. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mercurial is installed with version 5.4-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11312000"
-    }
+    },
+    "Operator": "AND"
   }
 }

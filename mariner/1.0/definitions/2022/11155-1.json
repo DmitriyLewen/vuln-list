@@ -19,10 +19,10 @@
     "Description": "CVE-2022-2880 affecting package golang 1.17.13-2. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package golang is installed with version 1.17.13-2 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11155000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-0135 affecting package virglrenderer for versions less than 0.9.1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package virglrenderer is earlier than 0.9.1-2, affected by CVE-2022-0135",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10724000"
-    }
+    },
+    "Operator": "AND"
   }
 }

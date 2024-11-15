@@ -20,10 +20,10 @@
     "Description": "CVE-2022-1708 affecting package cri-o for versions less than 1.21.7-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cri-o is earlier than 1.21.7-1, affected by CVE-2022-1708",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:37071000"
-    }
+    },
+    "Operator": "AND"
   }
 }

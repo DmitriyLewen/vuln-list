@@ -20,10 +20,10 @@
     "Description": "CVE-2024-49761 affecting package rubygem-rexml for versions less than 3.2.7-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rubygem-rexml is earlier than 3.2.7-3, affected by CVE-2024-49761",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:51894000"
-    }
+    },
+    "Operator": "AND"
   }
 }

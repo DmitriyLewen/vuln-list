@@ -20,10 +20,10 @@
     "Description": "CVE-2018-1000097 affecting package sharutils for versions less than 4.15.2-21. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package sharutils is earlier than 4.15.2-21, affected by CVE-2018-1000097",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35251000"
-    }
+    },
+    "Operator": "AND"
   }
 }

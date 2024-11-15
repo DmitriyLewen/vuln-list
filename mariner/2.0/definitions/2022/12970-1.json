@@ -20,10 +20,10 @@
     "Description": "CVE-2022-4415 affecting package systemd for versions less than 250.3-13. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd is earlier than 250.3-13, affected by CVE-2022-4415",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12970000"
-    }
+    },
+    "Operator": "AND"
   }
 }

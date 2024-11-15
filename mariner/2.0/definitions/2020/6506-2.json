@@ -20,10 +20,10 @@
     "Description": "CVE-2020-12762 affecting package json-c for versions less than 0.14-3. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package json-c is earlier than 0.14-3, affected by CVE-2020-12762",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6506000"
-    }
+    },
+    "Operator": "AND"
   }
 }

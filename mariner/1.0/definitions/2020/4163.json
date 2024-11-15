@@ -19,10 +19,10 @@
     "Description": "CVE-2020-36325 affecting package jansson 2.11-3. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package jansson is installed with version 2.11-3 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4163000"
-    }
+    },
+    "Operator": "AND"
   }
 }

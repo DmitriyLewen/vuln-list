@@ -20,10 +20,10 @@
     "Description": "CVE-2024-5742 affecting package nano for versions less than 6.0-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package nano is earlier than 6.0-3, affected by CVE-2024-5742",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42619000"
-    }
+    },
+    "Operator": "AND"
   }
 }

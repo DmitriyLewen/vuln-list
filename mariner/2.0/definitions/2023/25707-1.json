@@ -20,10 +20,10 @@
     "Description": "CVE-2023-28617 affecting package emacs for versions less than 28.2-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package emacs is earlier than 28.2-5, affected by CVE-2023-28617",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:25707000"
-    }
+    },
+    "Operator": "AND"
   }
 }

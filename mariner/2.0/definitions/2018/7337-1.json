@@ -20,10 +20,10 @@
     "Description": "CVE-2018-21232 affecting package re2c for versions less than 2.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package re2c is earlier than 2.0-1, affected by CVE-2018-21232",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7337000"
-    }
+    },
+    "Operator": "AND"
   }
 }

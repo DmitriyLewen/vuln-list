@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21599 affecting package mysql 8.0.29-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mysql is earlier than 8.0.31-1, affected by CVE-2022-21599",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11246000"
-    }
+    },
+    "Operator": "AND"
   }
 }

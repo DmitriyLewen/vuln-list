@@ -20,10 +20,10 @@
     "Description": "CVE-2024-43796 affecting package python-tensorboard for versions less than 2.16.2-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-tensorboard is earlier than 2.16.2-5, affected by CVE-2024-43796",
       "TestRef": "oval:com.microsoft.azurelinux:tst:49053000"
-    }
+    },
+    "Operator": "AND"
   }
 }

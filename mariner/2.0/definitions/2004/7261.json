@@ -19,10 +19,10 @@
     "Description": "CVE-2004-2779 affecting package libid3tag 0.15.1b-33. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libid3tag is installed with version 0.15.1b-33 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7261000"
-    }
+    },
+    "Operator": "AND"
   }
 }

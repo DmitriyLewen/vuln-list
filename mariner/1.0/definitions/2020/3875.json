@@ -20,10 +20,10 @@
     "Description": "CVE-2020-36242 affecting package python-cryptography 2.3.1-4. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-cryptography is earlier than 3.3.2-1, affected by CVE-2020-36242",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3875000"
-    }
+    },
+    "Operator": "AND"
   }
 }

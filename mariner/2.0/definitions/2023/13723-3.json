@@ -20,10 +20,10 @@
     "Description": "CVE-2023-20052 affecting package clamav for versions less than 0.105.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package clamav is earlier than 0.105.2-1, affected by CVE-2023-20052",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13723000"
-    }
+    },
+    "Operator": "AND"
   }
 }

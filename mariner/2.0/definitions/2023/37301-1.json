@@ -19,10 +19,10 @@
     "Description": "CVE-2023-29403 affecting package golang for versions less than 1.21.6-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
-      "Comment": "Package golang is greater than 1.18.0, affected by CVE-2023-29403",
-      "TestRef": "oval:com.microsoft.cbl-mariner:tst:37301003"
-    }
+      "Comment": "Package golang is earlier than 1.21.6-1, affected by CVE-2023-29403",
+      "TestRef": "oval:com.microsoft.cbl-mariner:tst:37301000"
+    },
+    "Operator": "AND"
   }
 }

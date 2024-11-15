@@ -19,10 +19,10 @@
     "Description": "CVE-2023-48795 affecting package moby-engine for versions less than 20.10.27-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-engine is earlier than 20.10.27-1, affected by CVE-2023-48795",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:32280000"
-    }
+    },
+    "Operator": "AND"
   }
 }

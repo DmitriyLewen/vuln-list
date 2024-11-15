@@ -19,10 +19,10 @@
     "Description": "CVE-2024-0727 affecting package openssl for versions less than 1.1.1k-29. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssl is earlier than 1.1.1k-29, affected by CVE-2024-0727",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33937000"
-    }
+    },
+    "Operator": "AND"
   }
 }

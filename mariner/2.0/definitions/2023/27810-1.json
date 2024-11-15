@@ -20,10 +20,10 @@
     "Description": "CVE-2023-3978 affecting package cert-manager for versions less than 1.11.2-15. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cert-manager is earlier than 1.11.2-15, affected by CVE-2023-3978",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:27810000"
-    }
+    },
+    "Operator": "AND"
   }
 }

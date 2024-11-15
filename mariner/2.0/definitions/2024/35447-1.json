@@ -20,10 +20,10 @@
     "Description": "CVE-2024-27099 affecting package azure-iot-sdk-c for versions less than 2022.01.21-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package azure-iot-sdk-c is earlier than 2022.01.21-3, affected by CVE-2024-27099",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35447000"
-    }
+    },
+    "Operator": "AND"
   }
 }

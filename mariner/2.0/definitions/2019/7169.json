@@ -19,10 +19,10 @@
     "Description": "CVE-2019-25051 affecting package aspell 0.60.8-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package aspell is installed with version 0.60.8-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7169000"
-    }
+    },
+    "Operator": "AND"
   }
 }

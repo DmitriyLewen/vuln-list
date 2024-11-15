@@ -19,10 +19,10 @@
     "Description": "CVE-2023-23916 affecting package rust 1.59.0-1. No patch is available currently."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rust is installed with version 1.59.0-1 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13636000"
-    }
+    },
+    "Operator": "AND"
   }
 }

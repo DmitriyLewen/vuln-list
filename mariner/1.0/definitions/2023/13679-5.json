@@ -20,10 +20,10 @@
     "Description": "CVE-2023-24329 affecting package python3 3.7.13-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python3 is earlier than 3.7.13-6, affected by CVE-2023-24329",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13679000"
-    }
+    },
+    "Operator": "AND"
   }
 }

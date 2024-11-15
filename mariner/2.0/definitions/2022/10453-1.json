@@ -20,10 +20,10 @@
     "Description": "CVE-2022-30699 affecting package unbound for versions less than 1.16.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package unbound is earlier than 1.16.2-1, affected by CVE-2022-30699",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10453000"
-    }
+    },
+    "Operator": "AND"
   }
 }

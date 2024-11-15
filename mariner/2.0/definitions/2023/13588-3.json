@@ -20,10 +20,10 @@
     "Description": "CVE-2023-25577 affecting package python-werkzeug for versions less than 2.0.3-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-werkzeug is earlier than 2.0.3-2, affected by CVE-2023-25577",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13588000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2018-19876 affecting package cairo 1.16.0-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cairo is earlier than 1.16.0-5, affected by CVE-2018-19876",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1980000"
-    }
+    },
+    "Operator": "AND"
   }
 }

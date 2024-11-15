@@ -20,10 +20,10 @@
     "Description": "CVE-2019-13636 affecting package patch 2.7.6-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package patch is earlier than 2.7.6-7, affected by CVE-2019-13636",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:1915000"
-    }
+    },
+    "Operator": "AND"
   }
 }

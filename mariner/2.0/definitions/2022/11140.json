@@ -19,10 +19,10 @@
     "Description": "CVE-2022-42969 affecting package python-py 1.10.0-3. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-py is installed with version 1.10.0-3 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11140000"
-    }
+    },
+    "Operator": "AND"
   }
 }

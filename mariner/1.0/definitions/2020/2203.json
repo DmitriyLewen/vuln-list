@@ -20,10 +20,10 @@
     "Description": "CVE-2020-14342 affecting package cifs-utils 6.8-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cifs-utils is earlier than 6.8-4, affected by CVE-2020-14342",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2203000"
-    }
+    },
+    "Operator": "AND"
   }
 }

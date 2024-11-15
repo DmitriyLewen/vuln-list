@@ -20,10 +20,10 @@
     "Description": "CVE-2022-44617 affecting package libXpm for versions less than 3.5.17-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libXpm is earlier than 3.5.17-1, affected by CVE-2022-44617",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13230000"
-    }
+    },
+    "Operator": "AND"
   }
 }

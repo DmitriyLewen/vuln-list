@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24857 affecting package kernel for versions less than 6.6.35.1-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 6.6.35.1-4, affected by CVE-2024-24857",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34881000"
-    }
+    },
+    "Operator": "AND"
   }
 }

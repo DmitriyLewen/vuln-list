@@ -20,10 +20,10 @@
     "Description": "CVE-2023-36328 affecting package tcl for versions less than 8.6.13-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package tcl is earlier than 8.6.13-3, affected by CVE-2023-36328",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35296000"
-    }
+    },
+    "Operator": "AND"
   }
 }

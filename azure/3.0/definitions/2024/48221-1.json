@@ -20,10 +20,10 @@
     "Description": "CVE-2024-43802 affecting package vim for versions less than 9.0.2190-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802",
       "TestRef": "oval:com.microsoft.azurelinux:tst:48221000"
-    }
+    },
+    "Operator": "AND"
   }
 }

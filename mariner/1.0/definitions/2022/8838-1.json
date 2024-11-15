@@ -20,10 +20,10 @@
     "Description": "CVE-2022-0563 affecting package util-linux 2.32.1-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package util-linux is earlier than 2.32.1-7, affected by CVE-2022-0563",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8838000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-48795 affecting package moby-cli for versions less than 20.10.27-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-cli is earlier than 20.10.27-2, affected by CVE-2023-48795",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:32223000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-0690 affecting package ansible for versions less than 2.14.12-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ansible is earlier than 2.14.12-2, affected by CVE-2024-0690",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34190000"
-    }
+    },
+    "Operator": "AND"
   }
 }

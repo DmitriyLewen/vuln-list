@@ -20,10 +20,10 @@
     "Description": "CVE-2023-7256 affecting package libpcap for versions less than 1.10.5-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libpcap is earlier than 1.10.5-1, affected by CVE-2023-7256",
       "TestRef": "oval:com.microsoft.azurelinux:tst:48415000"
-    }
+    },
+    "Operator": "AND"
   }
 }

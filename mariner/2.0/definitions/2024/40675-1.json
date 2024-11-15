@@ -20,10 +20,10 @@
     "Description": "CVE-2024-27281 affecting package ruby for versions less than 3.1.4-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ruby is earlier than 3.1.4-4, affected by CVE-2024-27281",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:40675000"
-    }
+    },
+    "Operator": "AND"
   }
 }

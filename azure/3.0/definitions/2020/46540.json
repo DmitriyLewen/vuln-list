@@ -20,10 +20,10 @@
     "Description": "CVE-2020-25576 affecting package kata-containers for versions less than 3.2.0.azl2-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kata-containers is earlier than 3.2.0.azl2-3, affected by CVE-2020-25576",
       "TestRef": "oval:com.microsoft.azurelinux:tst:46540000"
-    }
+    },
+    "Operator": "AND"
   }
 }

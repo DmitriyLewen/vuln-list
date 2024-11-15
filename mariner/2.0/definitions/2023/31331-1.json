@@ -19,10 +19,10 @@
     "Description": "CVE-2023-44487 affecting package multus for versions less than 3.8-12. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package multus is earlier than 3.8-12, affected by CVE-2023-44487",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31331000"
-    }
+    },
+    "Operator": "AND"
   }
 }

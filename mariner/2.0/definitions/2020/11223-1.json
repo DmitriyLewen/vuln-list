@@ -20,10 +20,10 @@
     "Description": "CVE-2020-0569 affecting package qt5-qtsvg for versions less than 5.15.9-1. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package qt5-qtsvg is earlier than 5.15.9-1, affected by CVE-2020-0569",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:11223000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24806 affecting package libuv for versions less than 1.43.0-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libuv is earlier than 1.43.0-2, affected by CVE-2024-24806",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:34306000"
-    }
+    },
+    "Operator": "AND"
   }
 }

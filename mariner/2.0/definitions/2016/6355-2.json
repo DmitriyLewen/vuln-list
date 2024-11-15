@@ -20,10 +20,10 @@
     "Description": "CVE-2016-2781 affecting package coreutils for versions less than 8.32-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package coreutils is earlier than 8.32-1, affected by CVE-2016-2781",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6355000"
-    }
+    },
+    "Operator": "AND"
   }
 }

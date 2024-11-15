@@ -20,10 +20,10 @@
     "Description": "CVE-2024-5564 affecting package libndp for versions less than 1.8-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libndp is earlier than 1.8-2, affected by CVE-2024-5564",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42625000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-38546 affecting package cmake for versions less than 3.21.4-10. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package cmake is earlier than 3.21.4-10, affected by CVE-2023-38546",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:31502000"
-    }
+    },
+    "Operator": "AND"
   }
 }

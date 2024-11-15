@@ -20,10 +20,10 @@
     "Description": "CVE-2022-21698 affecting package moby-engine for versions less than 20.10.27-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-engine is earlier than 20.10.27-3, affected by CVE-2022-21698",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33620000"
-    }
+    },
+    "Operator": "AND"
   }
 }

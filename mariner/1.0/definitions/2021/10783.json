@@ -19,10 +19,10 @@
     "Description": "CVE-2021-35937 affecting package rpm 4.14.2-15. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package rpm is installed with version 4.14.2-15 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10783000"
-    }
+    },
+    "Operator": "AND"
   }
 }

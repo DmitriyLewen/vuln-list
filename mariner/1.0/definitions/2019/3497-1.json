@@ -20,10 +20,10 @@
     "Description": "CVE-2019-19338 affecting package kernel 5.4.91-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.4.91-3, affected by CVE-2019-19338",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3497000"
-    }
+    },
+    "Operator": "AND"
   }
 }

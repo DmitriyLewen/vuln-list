@@ -19,10 +19,10 @@
     "Description": "CVE-2022-34176 affecting package junit 4.13-5. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package junit is installed with version 4.13-5 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9966000"
-    }
+    },
+    "Operator": "AND"
   }
 }

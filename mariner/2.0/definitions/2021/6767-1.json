@@ -20,10 +20,10 @@
     "Description": "CVE-2021-39262 affecting package ntfs-3g for versions less than 2021.8.22-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package ntfs-3g is earlier than 2021.8.22-1, affected by CVE-2021-39262",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6767000"
-    }
+    },
+    "Operator": "AND"
   }
 }

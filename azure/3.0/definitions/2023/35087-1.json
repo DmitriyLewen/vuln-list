@@ -19,10 +19,10 @@
     "Description": "CVE-2023-5366 affecting package openvswitch for versions less than 3.3.0-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openvswitch is earlier than 3.3.0-1, affected by CVE-2023-5366",
       "TestRef": "oval:com.microsoft.azurelinux:tst:35087000"
-    }
+    },
+    "Operator": "AND"
   }
 }

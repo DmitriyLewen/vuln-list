@@ -20,10 +20,10 @@
     "Description": "CVE-2022-1215 affecting package libinput 1.16.4-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libinput is earlier than 1.16.5-1, affected by CVE-2022-1215",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9863000"
-    }
+    },
+    "Operator": "AND"
   }
 }

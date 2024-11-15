@@ -20,10 +20,10 @@
     "Description": "CVE-2022-3563 affecting package bluez for versions less than 5.63-4. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package bluez is earlier than 5.63-4, affected by CVE-2022-3563",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:29945000"
-    }
+    },
+    "Operator": "AND"
   }
 }

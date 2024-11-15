@@ -20,10 +20,10 @@
     "Description": "CVE-2004-2771 affecting package mailx for versions less than 12.5-34. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mailx is earlier than 12.5-34, affected by CVE-2004-2771",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7286000"
-    }
+    },
+    "Operator": "AND"
   }
 }

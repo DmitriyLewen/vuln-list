@@ -20,10 +20,10 @@
     "Description": "CVE-2023-22895 affecting package mozjs60 60.9.0-10. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mozjs60 is earlier than 60.9.0-11, affected by CVE-2023-22895",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:12966000"
-    }
+    },
+    "Operator": "AND"
   }
 }

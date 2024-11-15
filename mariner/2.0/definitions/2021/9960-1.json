@@ -20,10 +20,10 @@
     "Description": "CVE-2021-46823 affecting package python-ldap for versions less than 3.4.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-ldap is earlier than 3.4.0-1, affected by CVE-2021-46823",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9960000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2022-31030 affecting package moby-containerd for versions less than 1.6.6-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-containerd is earlier than 1.6.6-1, affected by CVE-2022-31030",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9918000"
-    }
+    },
+    "Operator": "AND"
   }
 }

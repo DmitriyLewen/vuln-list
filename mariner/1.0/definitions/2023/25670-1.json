@@ -20,10 +20,10 @@
     "Description": "CVE-2023-28531 affecting package openssh 8.9p1-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openssh is earlier than 8.9p1-2, affected by CVE-2023-28531",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:25670000"
-    }
+    },
+    "Operator": "AND"
   }
 }

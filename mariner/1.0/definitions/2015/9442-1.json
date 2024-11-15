@@ -20,10 +20,10 @@
     "Description": "CVE-2015-20107 affecting package python3 3.7.13-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python3 is earlier than 3.7.13-4, affected by CVE-2015-20107",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:9442000"
-    }
+    },
+    "Operator": "AND"
   }
 }

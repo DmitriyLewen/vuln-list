@@ -20,10 +20,10 @@
     "Description": "CVE-2024-22195 affecting package python-jinja2 for versions less than 3.0.3-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python-jinja2 is earlier than 3.0.3-3, affected by CVE-2024-22195",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:33320000"
-    }
+    },
+    "Operator": "AND"
   }
 }

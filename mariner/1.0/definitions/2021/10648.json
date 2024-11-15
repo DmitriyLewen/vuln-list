@@ -19,10 +19,10 @@
     "Description": "CVE-2021-3997 affecting package systemd 239-42. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package systemd is installed with version 239-42 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10648000"
-    }
+    },
+    "Operator": "AND"
   }
 }

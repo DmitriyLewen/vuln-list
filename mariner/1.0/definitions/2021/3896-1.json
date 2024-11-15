@@ -20,10 +20,10 @@
     "Description": "CVE-2021-26931 affecting package kernel 5.4.91-6. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kernel is earlier than 5.10.57.1-1, affected by CVE-2021-26931",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3896000"
-    }
+    },
+    "Operator": "AND"
   }
 }

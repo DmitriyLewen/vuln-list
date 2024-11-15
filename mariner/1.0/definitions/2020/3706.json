@@ -20,10 +20,10 @@
     "Description": "CVE-2020-29396 affecting package python3 3.7.9-3. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package python3 is earlier than 3.7.10-3, affected by CVE-2020-29396",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:3706000"
-    }
+    },
+    "Operator": "AND"
   }
 }

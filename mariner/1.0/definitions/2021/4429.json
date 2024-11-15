@@ -20,10 +20,10 @@
     "Description": "CVE-2021-21285 affecting package moby-cli 19.03.15-2. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package moby-cli is earlier than 19.03.15+azure-2, affected by CVE-2021-21285",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4429000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-42523 affecting package colord for versions less than 1.4.4-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package colord is earlier than 1.4.4-9, affected by CVE-2021-42523",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:10716000"
-    }
+    },
+    "Operator": "AND"
   }
 }

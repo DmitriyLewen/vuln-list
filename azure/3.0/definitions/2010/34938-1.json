@@ -20,10 +20,10 @@
     "Description": "CVE-2010-2891 affecting package libsmi for versions less than 0.4.8-28. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libsmi is earlier than 0.4.8-28, affected by CVE-2010-2891",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34938000"
-    }
+    },
+    "Operator": "AND"
   }
 }

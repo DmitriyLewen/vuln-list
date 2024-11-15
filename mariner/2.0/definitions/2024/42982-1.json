@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6257 affecting package terraform for versions less than 1.3.2-17. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package terraform is earlier than 1.3.2-17, affected by CVE-2024-6257",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:42982000"
-    }
+    },
+    "Operator": "AND"
   }
 }

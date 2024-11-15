@@ -20,10 +20,10 @@
     "Description": "CVE-2021-32292 affecting package json-c for versions less than 0.15-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package json-c is earlier than 0.15-2, affected by CVE-2021-32292",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:28060000"
-    }
+    },
+    "Operator": "AND"
   }
 }

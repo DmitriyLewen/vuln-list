@@ -20,10 +20,10 @@
     "Description": "CVE-2020-8927 affecting package brotli 1.0.7-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package brotli is earlier than 1.0.7-9, affected by CVE-2020-8927",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:2537000"
-    }
+    },
+    "Operator": "AND"
   }
 }

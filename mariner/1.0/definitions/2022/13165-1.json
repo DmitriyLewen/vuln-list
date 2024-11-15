@@ -20,10 +20,10 @@
     "Description": "CVE-2022-48285 affecting package mozjs60 60.9.0-11. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mozjs60 is earlier than 60.9.0-13, affected by CVE-2022-48285",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13165000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-36980 affecting package openvswitch for versions less than 2.17.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package openvswitch is earlier than 2.17.0-1, affected by CVE-2021-36980",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6781000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3631 affecting package libvirt 6.1.0-6. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libvirt is earlier than 6.1.0-5, affected by CVE-2021-3631",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:8880000"
-    }
+    },
+    "Operator": "AND"
   }
 }

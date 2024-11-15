@@ -20,10 +20,10 @@
     "Description": "CVE-2024-6104 affecting package influxdb for versions less than 2.7.3-5. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package influxdb is earlier than 2.7.3-5, affected by CVE-2024-6104",
       "TestRef": "oval:com.microsoft.azurelinux:tst:42886000"
-    }
+    },
+    "Operator": "AND"
   }
 }

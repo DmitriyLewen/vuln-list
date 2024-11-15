@@ -19,10 +19,10 @@
     "Description": "CVE-2024-5991 affecting package mariadb for versions less than 10.6.9-6. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package mariadb is earlier than 10.6.9-6, affected by CVE-2024-5991",
       "TestRef": "oval:com.microsoft.azurelinux:tst:48368000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-44225 affecting package keepalived 2.0.10-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package keepalived is earlier than 2.0.10-7, affected by CVE-2021-44225",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6287000"
-    }
+    },
+    "Operator": "AND"
   }
 }

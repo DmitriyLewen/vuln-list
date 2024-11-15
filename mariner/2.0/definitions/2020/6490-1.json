@@ -20,10 +20,10 @@
     "Description": "CVE-2020-36325 affecting package jansson for versions less than 2.14-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package jansson is earlier than 2.14-1, affected by CVE-2020-36325",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6490000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2023-31147 affecting package fluent-bit for versions less than 2.1.10-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package fluent-bit is earlier than 2.1.10-1, affected by CVE-2023-31147",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26870000"
-    }
+    },
+    "Operator": "AND"
   }
 }

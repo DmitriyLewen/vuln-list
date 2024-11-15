@@ -20,10 +20,10 @@
     "Description": "CVE-2012-6687 affecting package fcgi for versions less than 2.4.0-7. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package fcgi is earlier than 2.4.0-7, affected by CVE-2012-6687",
       "TestRef": "oval:com.microsoft.azurelinux:tst:34685000"
-    }
+    },
+    "Operator": "AND"
   }
 }

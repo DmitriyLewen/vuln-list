@@ -20,10 +20,10 @@
     "Description": "CVE-2024-23722 affecting package fluent-bit for versions less than 2.2.2-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package fluent-bit is earlier than 2.2.2-1, affected by CVE-2024-23722",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:37083000"
-    }
+    },
+    "Operator": "AND"
   }
 }

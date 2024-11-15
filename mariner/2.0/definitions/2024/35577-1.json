@@ -20,10 +20,10 @@
     "Description": "CVE-2024-24786 affecting package kata-containers for versions less than 3.2.0.azl2-1. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package kata-containers is earlier than 3.2.0.azl2-1, affected by CVE-2024-24786",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:35577000"
-    }
+    },
+    "Operator": "AND"
   }
 }

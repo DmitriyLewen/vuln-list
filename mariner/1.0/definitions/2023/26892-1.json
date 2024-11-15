@@ -20,10 +20,10 @@
     "Description": "CVE-2023-31130 affecting package c-ares 1.19.0-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package c-ares is earlier than 1.19.1-1, affected by CVE-2023-31130",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:26892000"
-    }
+    },
+    "Operator": "AND"
   }
 }

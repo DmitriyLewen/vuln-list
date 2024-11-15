@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3445 affecting package libdnf 0.43.1-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package libdnf is earlier than 0.43.1-2, affected by CVE-2021-3445",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:4245000"
-    }
+    },
+    "Operator": "AND"
   }
 }

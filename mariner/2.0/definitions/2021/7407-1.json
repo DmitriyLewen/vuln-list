@@ -20,10 +20,10 @@
     "Description": "CVE-2021-22235 affecting package wireshark for versions less than 3.4.14-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package wireshark is earlier than 3.4.14-1, affected by CVE-2021-22235",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7407000"
-    }
+    },
+    "Operator": "AND"
   }
 }

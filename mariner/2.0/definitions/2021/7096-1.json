@@ -20,10 +20,10 @@
     "Description": "CVE-2021-3622 affecting package hivex for versions less than 1.3.21-1. An upgraded version of the package is available that resolves this issue."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package hivex is earlier than 1.3.21-1, affected by CVE-2021-3622",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:7096000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -20,10 +20,10 @@
     "Description": "CVE-2021-43523 affecting package uclibc-ng 1.0.37-2. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package uclibc-ng is earlier than 1.0.37-2, affected by CVE-2021-43523",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6195000"
-    }
+    },
+    "Operator": "AND"
   }
 }

@@ -19,10 +19,10 @@
     "Description": "CVE-2023-22607 affecting package binutils 2.37-8. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package binutils is installed with version 2.37-8 or earlier",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:13270000"
-    }
+    },
+    "Operator": "AND"
   }
 }

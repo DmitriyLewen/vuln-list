@@ -20,10 +20,10 @@
     "Description": "CVE-2023-41910 affecting package lldpd for versions less than 1.0.14-3. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package lldpd is earlier than 1.0.14-3, affected by CVE-2023-41910",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:28656000"
-    }
+    },
+    "Operator": "AND"
   }
 }

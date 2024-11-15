@@ -20,10 +20,10 @@
     "Description": "CVE-2019-12749 affecting package dbus for versions less than 1.13.6-9. A patched version of the package is available."
   },
   "Criteria": {
-    "Operator": "AND",
     "Criterion": {
       "Comment": "Package dbus is earlier than 1.13.6-9, affected by CVE-2019-12749",
       "TestRef": "oval:com.microsoft.cbl-mariner:tst:6371000"
-    }
+    },
+    "Operator": "AND"
   }
 }
