@@ -12,6 +12,7 @@
       "CVE-2007-6422",
       "CVE-2007-6423",
       "CVE-2008-2168",
+      "CVE-2010-0425",
       "CVE-2025-3891",
       "GHSA-4425-83hj-m78v",
       "GHSA-4prh-gqw8-rgh5",
@@ -23,6 +24,7 @@
       "GHSA-v96g-5j57-774c",
       "GHSA-vfvv-gfh6-h8qc",
       "GHSA-w6fh-wrw4-q6vg",
+      "GHSA-wv6c-mphw-ggxf",
       "GHSA-wxxw-99hq-72vw"
     ]
   },
