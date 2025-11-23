@@ -1,0 +1,29 @@
+{
+  "name": "npm",
+  "secfixes": {
+    "10.9.1-r0": [
+      "CVE-2024-21538"
+    ],
+    "11.4.2-r0": [
+      "CVE-2025-5889 GHSA-v6h2-p8h4-qcjw"
+    ],
+    "8.1.4-r0": [
+      "CVE-2021-43616"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "armhf",
+    "armv7",
+    "loongarch64",
+    "ppc64le",
+    "riscv64",
+    "s390x",
+    "x86",
+    "x86_64"
+  ],
+  "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
+  "reponame": "community",
+  "distroversion": "v3.22"
+}

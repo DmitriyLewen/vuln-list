@@ -1,0 +1,26 @@
+{
+  "name": "beats-9.0",
+  "secfixes": {
+    "9.0.7-r1": [
+      "CVE-2025-54410",
+      "GHSA-4vq8-7jfc-9cvp"
+    ],
+    "9.0.8-r2": [
+      "CVE-2025-58187",
+      "GHSA-frhw-mqj2-wxw2"
+    ],
+    "9.0.8-r3": [
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

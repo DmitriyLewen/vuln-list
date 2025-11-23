@@ -1,0 +1,24 @@
+{
+  "name": "sudo-rs",
+  "secfixes": {
+    "0.2.10-r0": [
+      "CVE-2025-64170",
+      "CVE-2025-64517",
+      "GHSA-c978-wq47-pvvw",
+      "GHSA-q428-6v73-fc4q"
+    ],
+    "0.2.6-r0": [
+      "CVE-2025-46717",
+      "CVE-2025-46718",
+      "GHSA-98cv-wqjx-wx8f",
+      "GHSA-w9q3-g4p5-5q2r"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}
