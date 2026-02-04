@@ -1,11 +1,13 @@
 {
-  "name": "nodejs-24",
+  "name": "gitlab-workhorse-ce-18.8",
   "secfixes": {
-    "24.13.0-r0": [
-      "CVE-2025-59466",
-      "CVE-2026-21636",
-      "GHSA-52xj-vx8w-46qj",
-      "GHSA-7xhv-hcmf-4rfv"
+    "0": [
+      "CVE-2025-47913",
+      "CVE-2025-47914",
+      "CVE-2025-58181",
+      "GHSA-56w8-48fp-6mgv",
+      "GHSA-f6x5-jh6r-wrfv",
+      "GHSA-j5w8-q4qc-rx2x"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
