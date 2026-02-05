@@ -1,7 +1,7 @@
 {
   "Class": "vulnerability",
   "ID": "oval:com.microsoft.cbl-mariner:def:73734",
-  "Version": "0",
+  "Version": "1",
   "Metadata": {
     "Title": "CVE-2026-21441 affecting package python-urllib3 for versions less than 1.26.19-3",
     "Affected": {
@@ -15,7 +15,7 @@
     },
     "Patchable": "true",
     "AdvisoryDate": "2026-01-21T16:02:44Z",
-    "AdvisoryID": "73734",
+    "AdvisoryID": "73734-1",
     "Severity": "High",
     "Description": "CVE-2026-21441 affecting package python-urllib3 for versions less than 1.26.19-3. A patched version of the package is available."
   },
