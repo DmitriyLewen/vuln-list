@@ -1,9 +1,11 @@
 {
-  "name": "kubectl-1.26",
+  "name": "k8s-agents-operator",
   "secfixes": {
-    "1.26.15-r0": [
-      "CVE-2024-24786",
-      "GHSA-8r3f-844c-mc37"
+    "0.37.1-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

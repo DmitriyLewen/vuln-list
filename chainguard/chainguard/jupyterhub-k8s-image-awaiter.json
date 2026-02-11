@@ -1,9 +1,11 @@
 {
-  "name": "postgresql-13-bitnami-compat",
+  "name": "jupyterhub-k8s-image-awaiter",
   "secfixes": {
-    "13.20-r0": [
-      "CVE-2017-8806",
-      "GHSA-xg92-g8h7-v7r4"
+    "4.3.2-r2": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
