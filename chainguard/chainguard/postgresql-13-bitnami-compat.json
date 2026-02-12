@@ -1,9 +1,9 @@
 {
-  "name": "datadog-agent-fips-7.75",
+  "name": "postgresql-13-bitnami-compat",
   "secfixes": {
-    "7.75.3-r0": [
-      "CVE-2026-26007",
-      "GHSA-r6ph-v2qm-q3c2"
+    "13.20-r0": [
+      "CVE-2017-8806",
+      "GHSA-xg92-g8h7-v7r4"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
