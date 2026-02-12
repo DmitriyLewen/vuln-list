@@ -1,21 +1,11 @@
 {
-  "name": "flux-2.7",
+  "name": "grafana-fips-12.3",
   "secfixes": {
-    "2.7.3-r1": [
-      "CVE-2025-47914",
-      "CVE-2025-58181",
-      "GHSA-f6x5-jh6r-wrfv",
-      "GHSA-j5w8-q4qc-rx2x"
-    ],
-    "2.7.5-r5": [
+    "12.3.2.01-r0": [
       "CVE-2025-61732",
       "CVE-2025-68121",
       "GHSA-8jvr-vh7g-f8gx",
       "GHSA-h355-32pf-p2xm"
-    ],
-    "2.7.5-r6": [
-      "CVE-2026-25934",
-      "GHSA-37cx-329c-33x3"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
