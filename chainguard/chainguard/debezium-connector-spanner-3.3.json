@@ -1,9 +1,9 @@
 {
-  "name": "postgresql-14-bitnami-compat",
+  "name": "debezium-connector-spanner-3.3",
   "secfixes": {
-    "14.17-r0": [
-      "CVE-2017-8806",
-      "GHSA-xg92-g8h7-v7r4"
+    "3.3.2-r1": [
+      "CVE-2024-7254",
+      "GHSA-735f-pc8j-v9w8"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

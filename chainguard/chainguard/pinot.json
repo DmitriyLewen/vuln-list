@@ -1,9 +1,9 @@
 {
-  "name": "postgresql-13-bitnami-compat",
+  "name": "pinot",
   "secfixes": {
-    "13.20-r0": [
-      "CVE-2017-8806",
-      "GHSA-xg92-g8h7-v7r4"
+    "1.4.0-r1": [
+      "CVE-2025-33042",
+      "GHSA-rp46-r563-jrc7"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
