@@ -1,13 +1,7 @@
 {
-  "name": "terragrunt-fips",
+  "name": "argo-workflows-fips-4.0",
   "secfixes": {
-    "0.99.1-r2": [
-      "CVE-2025-61732",
-      "CVE-2025-68121",
-      "GHSA-8jvr-vh7g-f8gx",
-      "GHSA-h355-32pf-p2xm"
-    ],
-    "0.99.4-r0": [
+    "4.0.1-r1": [
       "CVE-2026-26958",
       "GHSA-fw7p-63qq-7hpr"
     ]
