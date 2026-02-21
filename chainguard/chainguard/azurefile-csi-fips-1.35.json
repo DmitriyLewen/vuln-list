@@ -1,9 +1,9 @@
 {
-  "name": "loki-3.6",
+  "name": "azurefile-csi-fips-1.35",
   "secfixes": {
-    "3.6.6-r1": [
-      "CVE-2026-26958",
-      "GHSA-fw7p-63qq-7hpr"
+    "1.35.0-r2": [
+      "CVE-2026-24834",
+      "GHSA-wwj6-vghv-5p64"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
