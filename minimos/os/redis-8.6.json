@@ -1,5 +1,5 @@
 {
-  "name": "redis-8.2",
+  "name": "redis-8.6",
   "secfixes": {
     "0": [
       "CVE-2022-0543",
@@ -8,15 +8,6 @@
       "GHSA-4x76-2j9h-q9r9",
       "GHSA-9wpj-h5jq-88p9",
       "GHSA-xhp4-6g9v-4xvj"
-    ],
-    "8.2.2-r0": [
-      "CVE-2025-46817",
-      "CVE-2025-46818",
-      "CVE-2025-46819",
-      "CVE-2025-49844"
-    ],
-    "8.2.3-r0": [
-      "CVE-2025-62507"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
