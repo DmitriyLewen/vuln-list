@@ -1,9 +1,9 @@
 {
-  "name": "postgresql-13-bitnami-compat",
+  "name": "emscripten",
   "secfixes": {
-    "13.20-r0": [
-      "CVE-2017-8806",
-      "GHSA-xg92-g8h7-v7r4"
+    "5.0.1-r2": [
+      "CVE-2026-26996",
+      "GHSA-3ppc-4f35-3m26"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
