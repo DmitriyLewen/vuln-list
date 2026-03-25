@@ -2,6 +2,66 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package libarchive is earlier than 3.7.7-5, affected by CVE-2026-4111",
+      "ID": "oval:com.microsoft.azurelinux:tst:79886000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:79886001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:79886002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package erlang is earlier than 26.2.5.18-1, affected by CVE-2026-23941",
+      "ID": "oval:com.microsoft.azurelinux:tst:79880000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:79880001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:79880002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package erlang is earlier than 26.2.5.18-1, affected by CVE-2026-23943",
+      "ID": "oval:com.microsoft.azurelinux:tst:79877000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:79877001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:79877002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package erlang is earlier than 26.2.5.18-1, affected by CVE-2026-23942",
+      "ID": "oval:com.microsoft.azurelinux:tst:79874000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:79874001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:79874002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package libexif is earlier than 0.6.24-2, affected by CVE-2026-32775",
+      "ID": "oval:com.microsoft.azurelinux:tst:79862000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:79862001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:79862002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package giflib is earlier than 5.2.1-11, affected by CVE-2026-23868",
       "ID": "oval:com.microsoft.azurelinux:tst:79662000",
       "Version": "0",
@@ -2602,6 +2662,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:75896002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package edk2 is earlier than 20240524git3e722403cd16-15, affected by CVE-2025-69419",
+      "ID": "oval:com.microsoft.azurelinux:tst:75890000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:75890001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:75890002"
       }
     },
     {

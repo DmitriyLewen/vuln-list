@@ -1,6 +1,31 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.azurelinux:obj:79886001",
+      "Version": "0",
+      "Name": "libarchive"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:79880001",
+      "Version": "0",
+      "Name": "erlang"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:79877001",
+      "Version": "0",
+      "Name": "erlang"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:79874001",
+      "Version": "0",
+      "Name": "erlang"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:79862001",
+      "Version": "0",
+      "Name": "libexif"
+    },
+    {
       "ID": "oval:com.microsoft.azurelinux:obj:79662001",
       "Version": "0",
       "Name": "giflib"
@@ -1083,6 +1108,11 @@
     {
       "ID": "oval:com.microsoft.azurelinux:obj:75896001",
       "Version": "1",
+      "Name": "edk2"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:75890001",
+      "Version": "0",
       "Name": "edk2"
     },
     {
