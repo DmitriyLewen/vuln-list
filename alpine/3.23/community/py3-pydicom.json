@@ -1,12 +1,8 @@
 {
-  "name": "step-certificates",
+  "name": "py3-pydicom",
   "secfixes": {
-    "0.29.0-r0": [
-      "CVE-2025-44005",
-      "CVE-2025-66406"
-    ],
-    "0.30.1-r0": [
-      "CVE-2026-30836"
+    "3.0.2-r0": [
+      "CVE-2026-32711"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

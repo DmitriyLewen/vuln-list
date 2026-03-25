@@ -1,12 +1,8 @@
 {
-  "name": "step-certificates",
+  "name": "freeipmi",
   "secfixes": {
-    "0.29.0-r0": [
-      "CVE-2025-44005",
-      "CVE-2025-66406"
-    ],
-    "0.30.1-r0": [
-      "CVE-2026-30836"
+    "1.6.17-r0": [
+      "CVE-2026-33554"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -23,5 +19,5 @@
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
   "reponame": "community",
-  "distroversion": "v3.23"
+  "distroversion": "edge"
 }
